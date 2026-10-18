@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "method": "local-tool execution and bounded file reads; model token cost unavailable",
+  "baseline_tracked_files": 264,
+  "ported_dataset_records": 2522,
+  "schema_files_validated": 21,
+  "estimated_api_calls": 0,
+  "note": "No external API/model calls were made by the execution workflow."
+}

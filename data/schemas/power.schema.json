@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "power",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "command": {
+      "type": [
+        "null"
+      ]
+    },
+    "condition": {
+      "type": [
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "mode": {
+      "type": [
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "parameter": {
+      "type": [
+        "null"
+      ]
+    },
+    "related_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "related_states": {
+      "type": "array",
+      "items": {}
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        },
+        "quote": {
+          "type": [
+            "null"
+          ]
+        },
+        "section": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unit": {
+      "type": [
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "value_max": {
+      "type": [
+        "null"
+      ]
+    },
+    "value_min": {
+      "type": [
+        "null"
+      ]
+    },
+    "value_typ": {
+      "type": [
+        "null"
+      ]
+    },
+    "wake_source": {
+      "type": [
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "command",
+    "condition",
+    "confidence",
+    "conflicts",
+    "created_at",
+    "id",
+    "mode",
+    "notes",
+    "parameter",
+    "related_commands",
+    "related_states",
+    "source",
+    "source_type",
+    "status",
+    "tags",
+    "unit",
+    "updated_at",
+    "value_max",
+    "value_min",
+    "value_typ",
+    "wake_source"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

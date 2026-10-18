@@ -1,0 +1,2061 @@
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/audit.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_all_models
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/audit.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_all_models
+  [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:19:59
+   [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                           [1m[91m^^^^[0m
+[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m18[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef audit(root: Path, model_filter: str | None = None) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m19[0m [1m[32m+[0m [32mdef audit(root: Path, model_filter: str | None = None) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:19:64
+   [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                                [1m[91m^^^^[0m
+[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m18[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef audit(root: Path, model_filter: str | None = None) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m19[0m [1m[32m+[0m [32mdef audit(root: Path, model_filter: str | None = None) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:20:11
+   [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+   [1m[94m|[0m           [1m[91m^^^^[0m
+[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m22[0m [1m[94m|[0m         if model_filter and doc["model"] != model_filter:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+[1m[94m  [0m [1m[31m-[0m [31m    rows: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m20[0m [1m[32m+[0m [32m    rows: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:20:16
+   [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+[1m[94m20[0m [1m[94m|[0m     rows: List[Dict[str, Any]] = []
+   [1m[94m|[0m                [1m[91m^^^^[0m
+[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m22[0m [1m[94m|[0m         if model_filter and doc["model"] != model_filter:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m19[0m [1m[94m|[0m def audit(root: Path, model_filter: str | None = None) -> List[Dict[str, Any]]:
+[1m[94m  [0m [1m[31m-[0m [31m    rows: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m20[0m [1m[32m+[0m [32m    rows: [0m[1m[32mList[dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m21[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:37:101
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                                                                     [1m[91m^^^^[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m36[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m37[0m [1m[32m+[0m [32mdef conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:37:106
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                                                                          [1m[91m^^^^[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m36[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m37[0m [1m[32m+[0m [32mdef conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (121 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:37:121
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                                                                                         [1m[91m^[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:39:10
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> List[Dict[str, Any]]:
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m          [1m[91m^^^^[0m
+[1m[94m40[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m41[0m [1m[94m|[0m         if model_filter and doc["model"] != model_filter:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m  [0m [1m[31m-[0m [31m    out: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m39[0m [1m[32m+[0m [32m    out: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m40[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:39:15
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> List[Dict[str, Any]]:
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m               [1m[91m^^^^[0m
+[1m[94m40[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m41[0m [1m[94m|[0m         if model_filter and doc["model"] != model_filter:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m  [0m [1m[31m-[0m [31m    out: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m39[0m [1m[32m+[0m [32m    out: [0m[1m[32mList[dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m40[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+  [1m[94m--> [0msrc/capabilities/cli.py:2:1
+   [1m[94m|[0m
+[1m[94m 1[0m [1m[94m|[0m   """Command-line interface for sim800-capabilities."""
+[1m[94m 2[0m [1m[94m|[0m [1m[91m/[0m from __future__ import annotations
+[1m[94m 3[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 4[0m [1m[94m|[0m [1m[91m|[0m import csv
+[1m[94m 5[0m [1m[94m|[0m [1m[91m|[0m import io
+[1m[94m 6[0m [1m[94m|[0m [1m[91m|[0m import json
+[1m[94m 7[0m [1m[94m|[0m [1m[91m|[0m import sys
+[1m[94m 8[0m [1m[94m|[0m [1m[91m|[0m from pathlib import Path
+[1m[94m 9[0m [1m[94m|[0m [1m[91m|[0m from typing import Any, List
+[1m[94m10[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m11[0m [1m[94m|[0m [1m[91m|[0m import yaml
+[1m[94m12[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m13[0m [1m[94m|[0m [1m[91m|[0m from . import __version__
+[1m[94m14[0m [1m[94m|[0m [1m[91m|[0m from .audit import audit, conflicts_report
+[1m[94m15[0m [1m[94m|[0m [1m[91m|[0m from .compare import compare
+[1m[94m16[0m [1m[94m|[0m [1m[91m|[0m from .generate import write_capabilities
+[1m[94m17[0m [1m[94m|[0m [1m[91m|[0m from .cpp import render_from_root, write_cpp_header
+[1m[94m18[0m [1m[94m|[0m [1m[91m|[0m from .loader import load_all_models
+[1m[94m19[0m [1m[94m|[0m [1m[91m|[0m from .query import find, get_path, is_excluded, list_models, resolve_model
+[1m[94m20[0m [1m[94m|[0m [1m[91m|[0m from .validator import validate
+   [1m[94m|[0m [1m[91m|_______________________________^[0m
+[1m[94m21[0m [1m[94m|[0m
+[1m[94m22[0m [1m[94m|[0m   ROOT_DEFAULT = Path(__file__).resolve().parents[2]
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m15[0m [1m[94m|[0m from .compare import compare
+[1m[94m16[0m [1m[32m+[0m [32mfrom .cpp import render_from_root, write_cpp_header
+[0m[1m[94m17[0m [1m[94m|[0m from .generate import write_capabilities
+[1m[94m  [0m [1m[31m-[0m [31mfrom .cpp import render_from_root, write_cpp_header
+[0m[1m[94m18[0m [1m[94m|[0m from .loader import load_all_models
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+  [1m[94m--> [0msrc/capabilities/cli.py:9:1
+   [1m[94m|[0m
+[1m[94m 7[0m [1m[94m|[0m import sys
+[1m[94m 8[0m [1m[94m|[0m from pathlib import Path
+[1m[94m 9[0m [1m[94m|[0m from typing import Any, List
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m10[0m [1m[94m|[0m
+[1m[94m11[0m [1m[94m|[0m import yaml
+   [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:126:11
+    [1m[94m|[0m
+[1m[94m124[0m [1m[94m|[0m             return 2
+[1m[94m125[0m [1m[94m|[0m         return 0
+[1m[94m126[0m [1m[94m|[0m     rows: List[dict] = []
+    [1m[94m|[0m           [1m[91m^^^^[0m
+[1m[94m127[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m128[0m [1m[94m|[0m         for path, fv in _iter_leaves(doc.get("capabilities", {})):
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m125[0m [1m[94m|[0m         return 0
+[1m[94m   [0m [1m[31m-[0m [31m    rows: [0m[1m[31mList[dict][0m[0m[31m = []
+[0m[1m[94m126[0m [1m[32m+[0m [32m    rows: [0m[1m[32mlist[dict][0m[0m[32m = []
+[0m[1m[94m127[0m [1m[94m|[0m     for doc in load_all_models(root):
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:214:36
+    [1m[94m|[0m
+[1m[94m212[0m [1m[94m|[0m     sub = p.add_subparsers(dest="command", required=True)
+[1m[94m213[0m [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+    [1m[94m|[0m                                    [1m[91m^[0m
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:32
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:103
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                                                                                       [1m[91m^[0m
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (134 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:121
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m [1m[94m…[0m_validate)
+[1m[94m215[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0mchoices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                                             [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:32
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:58
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                                          [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:121
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0ml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:129
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0moices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:32
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:58
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                                          [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:121
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0m"path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml")[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:129
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0md_argument("path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], defa[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:31
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                               [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:57
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                                                         [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:82
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                                                                                  [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (237 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:121
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdefault="yaml"); sp.set_defaults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0m, action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_get)
+    [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mat", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:136
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0ment("path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="ya[1m[94m…[0m
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0margument("model2"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:207
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_get)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0m], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:35
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                   [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:62
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                                              [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:89
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                                                                         [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (194 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:121
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mrgument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m                               [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0mv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:160
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mment("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(fu[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:34
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m                                  [1m[91m^[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:119
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m                                                                                                                       [1m[91m^[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (152 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:121
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0margument("model2"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0mes=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:36
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m                                    [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:113
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m                                                                                                                 [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (188 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:121
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m"csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m                                  [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0ment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:153
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m "csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m, "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0mment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:33
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m                                 [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:75
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m                                                                           [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (178 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:121
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0mcpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0margument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m                                       [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0madd_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.se[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:146
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m, "cpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0msp.add_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:37
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m                                     [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m
+[1m[94m234[0m [1m[94m|[0m     return p
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:79
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m                                                                               [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m
+[1m[94m234[0m [1m[94m|[0m     return p
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (245 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:121
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0maml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0m, action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_conflicts)
+    [1m[94m|[0m       [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:138
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0me); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0m=None); sp.add_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="ya[1m[94m…[0m
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:209
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0m"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_conflicts)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:237:16
+    [1m[94m|[0m
+[1m[94m237[0m [1m[94m|[0m def main(argv: List[str] | None = None) -> int:
+    [1m[94m|[0m                [1m[91m^^^^[0m
+[1m[94m238[0m [1m[94m|[0m     parser = build_parser()
+[1m[94m239[0m [1m[94m|[0m     args = parser.parse_args(argv)
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m236[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef main(argv: [0m[1m[31mList[str][0m[0m[31m | None = None) -> int:
+[0m[1m[94m237[0m [1m[32m+[0m [32mdef main(argv: [0m[1m[32mlist[str][0m[0m[32m | None = None) -> int:
+[0m[1m[94m238[0m [1m[94m|[0m     parser = build_parser()
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/compare.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_model
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/compare.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_model
+  [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `.loader.load_model` imported but unused[0m
+ [1m[94m--> [0msrc/capabilities/compare.py:7:21
+  [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_model
+  [1m[94m|[0m                     [1m[91m^^^^^^^^^^[0m
+[1m[94m8[0m [1m[94m|[0m from .query import resolve_model
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove unused import: `.loader.load_model`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m [0m [1m[31m-[0m [31mfrom .loader import load_model
+[0m[1m[94m7[0m [1m[94m|[0m from .query import resolve_model
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:21:54
+   [1m[94m|[0m
+[1m[94m21[0m [1m[94m|[0m def compare(root: Path, model1: str, model2: str) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                      [1m[91m^^^^[0m
+[1m[94m22[0m [1m[94m|[0m     doc1 = resolve_model(root, model1)
+[1m[94m23[0m [1m[94m|[0m     doc2 = resolve_model(root, model2)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compare(root: Path, model1: str, model2: str) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m21[0m [1m[32m+[0m [32mdef compare(root: Path, model1: str, model2: str) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m22[0m [1m[94m|[0m     doc1 = resolve_model(root, model1)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:21:59
+   [1m[94m|[0m
+[1m[94m21[0m [1m[94m|[0m def compare(root: Path, model1: str, model2: str) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                                           [1m[91m^^^^[0m
+[1m[94m22[0m [1m[94m|[0m     doc1 = resolve_model(root, model1)
+[1m[94m23[0m [1m[94m|[0m     doc2 = resolve_model(root, model2)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compare(root: Path, model1: str, model2: str) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m21[0m [1m[32m+[0m [32mdef compare(root: Path, model1: str, model2: str) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m22[0m [1m[94m|[0m     doc1 = resolve_model(root, model1)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:32:10
+   [1m[94m|[0m
+[1m[94m30[0m [1m[94m|[0m     leaves2 = dict(_iter_leaves(doc2.get("capabilities", {}), "capabilities"))
+[1m[94m31[0m [1m[94m|[0m
+[1m[94m32[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m          [1m[91m^^^^[0m
+[1m[94m33[0m [1m[94m|[0m     for path in sorted(set(leaves1) | set(leaves2)):
+[1m[94m34[0m [1m[94m|[0m         f1 = leaves1.get(path)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m31[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31m    out: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m32[0m [1m[32m+[0m [32m    out: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m33[0m [1m[94m|[0m     for path in sorted(set(leaves1) | set(leaves2)):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:32:15
+   [1m[94m|[0m
+[1m[94m30[0m [1m[94m|[0m     leaves2 = dict(_iter_leaves(doc2.get("capabilities", {}), "capabilities"))
+[1m[94m31[0m [1m[94m|[0m
+[1m[94m32[0m [1m[94m|[0m     out: List[Dict[str, Any]] = []
+   [1m[94m|[0m               [1m[91m^^^^[0m
+[1m[94m33[0m [1m[94m|[0m     for path in sorted(set(leaves1) | set(leaves2)):
+[1m[94m34[0m [1m[94m|[0m         f1 = leaves1.get(path)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m31[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31m    out: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]] = []
+[0m[1m[94m32[0m [1m[32m+[0m [32m    out: [0m[1m[32mList[dict[str,[0m[0m[32m Any]] = []
+[0m[1m[94m33[0m [1m[94m|[0m     for path in sorted(set(leaves1) | set(leaves2)):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (159 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:37:121
+   [1m[94m|[0m
+[1m[94m35[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m36[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m37[0m [1m[94m|[0m [1m[94m…[0m_value": {"value": f2["value"], "status": f2["status"]}, "diff_type": "missing_left"})
+   [1m[94m|[0m                                                 [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m38[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m39[0m [1m[94m|[0m [1m[94m…[0m
+   [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:40:121
+   [1m[94m|[0m
+[1m[94m38[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m39[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m40[0m [1m[94m|[0m [1m[94m…[0mvalue"], "status": f1["status"]}, "model2_value": None, "diff_type": "missing_right"})
+   [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m41[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m42[0m [1m[94m|[0m [1m[94m…[0m
+   [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0msrc/capabilities/cpp.py:2:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m   """Generate a C++ header from the capability database."""
+[1m[94m2[0m [1m[94m|[0m [1m[91m/[0m from __future__ import annotations
+[1m[94m3[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m4[0m [1m[94m|[0m [1m[91m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m [1m[91m|[0m from typing import Any, Dict, List
+[1m[94m6[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m7[0m [1m[94m|[0m [1m[91m|[0m from .generate import generate as _generate_doc
+  [1m[94m|[0m [1m[91m|_______________________________________________^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m
+[1m[94m [0m [1m[31m-[0m[31m
+[0m[1m[94m9[0m [1m[94m|[0m _FAMILIES = ("SIM800", "SIM808", "SIM868")
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/cpp.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .generate import generate as _generate_doc
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/cpp.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .generate import generate as _generate_doc
+  [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/cpp.py:67:32
+   [1m[94m|[0m
+[1m[94m67[0m [1m[94m|[0m def _node(d: Any, key: str) -> Dict[str, Any]:
+   [1m[94m|[0m                                [1m[91m^^^^[0m
+[1m[94m68[0m [1m[94m|[0m     if isinstance(d, dict):
+[1m[94m69[0m [1m[94m|[0m         n = d.get(key)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m66[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef _node(d: Any, key: str) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m67[0m [1m[32m+[0m [32mdef _node(d: Any, key: str) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m68[0m [1m[94m|[0m     if isinstance(d, dict):
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cpp.py:102:12
+    [1m[94m|[0m
+[1m[94m100[0m [1m[94m|[0m def _band_list(node: Any) -> str:
+[1m[94m101[0m [1m[94m|[0m     v = _val(node)
+[1m[94m102[0m [1m[94m|[0m     items: List[int] = []
+    [1m[94m|[0m            [1m[91m^^^^[0m
+[1m[94m103[0m [1m[94m|[0m     if isinstance(v, list):
+[1m[94m104[0m [1m[94m|[0m         for x in v:
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m101[0m [1m[94m|[0m     v = _val(node)
+[1m[94m   [0m [1m[31m-[0m [31m    items: [0m[1m[31mList[int][0m[0m[31m = []
+[0m[1m[94m102[0m [1m[32m+[0m [32m    items: [0m[1m[32mlist[int][0m[0m[32m = []
+[0m[1m[94m103[0m [1m[94m|[0m     if isinstance(v, list):
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cpp.py:118:26
+    [1m[94m|[0m
+[1m[94m118[0m [1m[94m|[0m def _render_model(model: Dict[str, Any]) -> str:
+    [1m[94m|[0m                          [1m[91m^^^^[0m
+[1m[94m119[0m [1m[94m|[0m     caps = model.get("capabilities") or {}
+[1m[94m120[0m [1m[94m|[0m     name = model.get("model", "")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m117[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _render_model(model: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> str:
+[0m[1m[94m118[0m [1m[32m+[0m [32mdef _render_model(model: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> str:
+[0m[1m[94m119[0m [1m[94m|[0m     caps = model.get("capabilities") or {}
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cpp.py:140:12
+    [1m[94m|[0m
+[1m[94m138[0m [1m[94m|[0m     vbat_max_mv = _volts_to_mv(_val(vmax))
+[1m[94m139[0m [1m[94m|[0m
+[1m[94m140[0m [1m[94m|[0m     lines: List[str] = []
+    [1m[94m|[0m            [1m[91m^^^^[0m
+[1m[94m141[0m [1m[94m|[0m     lines.append("    Model{")
+[1m[94m142[0m [1m[94m|[0m     lines.append("        " + _str_cpp(name) + ", " + _family_cpp(family) + ",")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m139[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31m    lines: [0m[1m[31mList[str][0m[0m[31m = []
+[0m[1m[94m140[0m [1m[32m+[0m [32m    lines: [0m[1m[32mlist[str][0m[0m[32m = []
+[0m[1m[94m141[0m [1m[94m|[0m     lines.append("    Model{")
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cpp.py:260:27
+    [1m[94m|[0m
+[1m[94m260[0m [1m[94m|[0m def render_header(models: List[Dict[str, Any]]) -> str:
+    [1m[94m|[0m                           [1m[91m^^^^[0m
+[1m[94m261[0m [1m[94m|[0m     body = "".join(_render_model(m) for m in models)
+[1m[94m262[0m [1m[94m|[0m     return _HEADER + body + _FOOTER
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m259[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef render_header(models: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]) -> str:
+[0m[1m[94m260[0m [1m[32m+[0m [32mdef render_header(models: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]) -> str:
+[0m[1m[94m261[0m [1m[94m|[0m     body = "".join(_render_model(m) for m in models)
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/cpp.py:260:32
+    [1m[94m|[0m
+[1m[94m260[0m [1m[94m|[0m def render_header(models: List[Dict[str, Any]]) -> str:
+    [1m[94m|[0m                                [1m[91m^^^^[0m
+[1m[94m261[0m [1m[94m|[0m     body = "".join(_render_model(m) for m in models)
+[1m[94m262[0m [1m[94m|[0m     return _HEADER + body + _FOOTER
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m259[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef render_header(models: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]) -> str:
+[0m[1m[94m260[0m [1m[32m+[0m [32mdef render_header(models: [0m[1m[32mList[dict[str,[0m[0m[32m Any]]) -> str:
+[0m[1m[94m261[0m [1m[94m|[0m     body = "".join(_render_model(m) for m in models)
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+  [1m[94m--> [0msrc/capabilities/generate.py:2:1
+   [1m[94m|[0m
+[1m[94m 1[0m [1m[94m|[0m   """Generate capabilities.yaml from models + sources."""
+[1m[94m 2[0m [1m[94m|[0m [1m[91m/[0m from __future__ import annotations
+[1m[94m 3[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 4[0m [1m[94m|[0m [1m[91m|[0m from pathlib import Path
+[1m[94m 5[0m [1m[94m|[0m [1m[91m|[0m from typing import Any, Dict, List
+[1m[94m 6[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 7[0m [1m[94m|[0m [1m[91m|[0m import yaml
+[1m[94m 8[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 9[0m [1m[94m|[0m [1m[91m|[0m from .loader import (
+[1m[94m10[0m [1m[94m|[0m [1m[91m|[0m     compute_content_hash,
+[1m[94m11[0m [1m[94m|[0m [1m[91m|[0m     compute_scope_hash,
+[1m[94m12[0m [1m[94m|[0m [1m[91m|[0m     load_all_models,
+[1m[94m13[0m [1m[94m|[0m [1m[91m|[0m     load_scope,
+[1m[94m14[0m [1m[94m|[0m [1m[91m|[0m     load_sources,
+[1m[94m15[0m [1m[94m|[0m [1m[91m|[0m )
+[1m[94m16[0m [1m[94m|[0m [1m[91m|[0m from .validator import validate
+   [1m[94m|[0m [1m[91m|_______________________________^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m17[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m[31m
+[0m[1m[94m18[0m [1m[94m|[0m # Ordering rules ----------------------------------------------------------
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/generate.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m import yaml
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/generate.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m import yaml
+  [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `typing.List` imported but unused[0m
+ [1m[94m--> [0msrc/capabilities/generate.py:5:31
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m                               [1m[91m^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m import yaml
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove unused import: `typing.List`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mfrom typing import Any, [0m[1m[31mDict, List[0m[0m[31m
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom typing import Any, [0m[1m[32mDict[0m[0m[32m
+[0m[1m[94m6[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/generate.py:72:32
+   [1m[94m|[0m
+[1m[94m72[0m [1m[94m|[0m def _canonicalize_model(model: Dict[str, Any]) -> Dict[str, Any]:
+   [1m[94m|[0m                                [1m[91m^^^^[0m
+[1m[94m73[0m [1m[94m|[0m     _walk_canonicalize(model.get("capabilities", {}), "capabilities")
+[1m[94m74[0m [1m[94m|[0m     meta = model.setdefault("metadata", {})
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m71[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef _canonicalize_model(model: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> Dict[str, Any]:
+[0m[1m[94m72[0m [1m[32m+[0m [32mdef _canonicalize_model(model: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> Dict[str, Any]:
+[0m[1m[94m73[0m [1m[94m|[0m     _walk_canonicalize(model.get("capabilities", {}), "capabilities")
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/generate.py:72:51
+   [1m[94m|[0m
+[1m[94m72[0m [1m[94m|[0m def _canonicalize_model(model: Dict[str, Any]) -> Dict[str, Any]:
+   [1m[94m|[0m                                                   [1m[91m^^^^[0m
+[1m[94m73[0m [1m[94m|[0m     _walk_canonicalize(model.get("capabilities", {}), "capabilities")
+[1m[94m74[0m [1m[94m|[0m     meta = model.setdefault("metadata", {})
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m71[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef _canonicalize_model(model: Dict[str, Any]) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m72[0m [1m[32m+[0m [32mdef _canonicalize_model(model: Dict[str, Any]) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m73[0m [1m[94m|[0m     _walk_canonicalize(model.get("capabilities", {}), "capabilities")
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/generate.py:80:29
+   [1m[94m|[0m
+[1m[94m80[0m [1m[94m|[0m def generate(root: Path) -> Dict[str, Any]:
+   [1m[94m|[0m                             [1m[91m^^^^[0m
+[1m[94m81[0m [1m[94m|[0m     root = Path(root)
+[1m[94m82[0m [1m[94m|[0m     errors = validate(root)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m79[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef generate(root: Path) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m80[0m [1m[32m+[0m [32mdef generate(root: Path) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m81[0m [1m[94m|[0m     root = Path(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0msrc/capabilities/loader.py:2:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m   """Load YAML data files for the sim800-capabilities database."""
+[1m[94m2[0m [1m[94m|[0m [1m[91m/[0m from __future__ import annotations
+[1m[94m3[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m4[0m [1m[94m|[0m [1m[91m|[0m import json
+[1m[94m5[0m [1m[94m|[0m [1m[91m|[0m import hashlib
+[1m[94m6[0m [1m[94m|[0m [1m[91m|[0m from pathlib import Path
+[1m[94m7[0m [1m[94m|[0m [1m[91m|[0m from typing import Any, Dict, List
+[1m[94m8[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m9[0m [1m[94m|[0m [1m[91m|[0m import yaml
+  [1m[94m|[0m [1m[91m|___________^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m3[0m [1m[94m|[0m
+[1m[94m4[0m [1m[32m+[0m [32mimport hashlib
+[0m[1m[94m5[0m [1m[94m|[0m import json
+[1m[94m [0m [1m[31m-[0m [31mimport hashlib
+[0m[1m[94m6[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/loader.py:7:1
+  [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m import hashlib
+[1m[94m6[0m [1m[94m|[0m from pathlib import Path
+[1m[94m7[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m8[0m [1m[94m|[0m
+[1m[94m9[0m [1m[94m|[0m import yaml
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/loader.py:7:1
+  [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m import hashlib
+[1m[94m6[0m [1m[94m|[0m from pathlib import Path
+[1m[94m7[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m8[0m [1m[94m|[0m
+[1m[94m9[0m [1m[94m|[0m import yaml
+  [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:17:31
+   [1m[94m|[0m
+[1m[94m17[0m [1m[94m|[0m def load_scope(root: Path) -> Dict[str, Any]:
+   [1m[94m|[0m                               [1m[91m^^^^[0m
+[1m[94m18[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "scope.yaml")
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m16[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_scope(root: Path) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m17[0m [1m[32m+[0m [32mdef load_scope(root: Path) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m18[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "scope.yaml")
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:21:33
+   [1m[94m|[0m
+[1m[94m21[0m [1m[94m|[0m def load_sources(root: Path) -> Dict[str, Any]:
+   [1m[94m|[0m                                 [1m[91m^^^^[0m
+[1m[94m22[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "sources.yaml")
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_sources(root: Path) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m21[0m [1m[32m+[0m [32mdef load_sources(root: Path) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m22[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "sources.yaml")
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:25:38
+   [1m[94m|[0m
+[1m[94m25[0m [1m[94m|[0m def load_out_of_scope(root: Path) -> Dict[str, Any]:
+   [1m[94m|[0m                                      [1m[91m^^^^[0m
+[1m[94m26[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "out-of-scope.yaml")
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m24[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_out_of_scope(root: Path) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m25[0m [1m[32m+[0m [32mdef load_out_of_scope(root: Path) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m26[0m [1m[94m|[0m     return load_yaml(Path(root) / "data" / "capabilities" / "out-of-scope.yaml")
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:29:43
+   [1m[94m|[0m
+[1m[94m29[0m [1m[94m|[0m def load_model(root: Path, model: str) -> Dict[str, Any]:
+   [1m[94m|[0m                                           [1m[91m^^^^[0m
+[1m[94m30[0m [1m[94m|[0m     path = Path(root) / "data" / "capabilities" / "models" / f"{model.lower()}.yaml"
+[1m[94m31[0m [1m[94m|[0m     return load_yaml(path)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m28[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_model(root: Path, model: str) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m29[0m [1m[32m+[0m [32mdef load_model(root: Path, model: str) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m30[0m [1m[94m|[0m     path = Path(root) / "data" / "capabilities" / "models" / f"{model.lower()}.yaml"
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:34:36
+   [1m[94m|[0m
+[1m[94m34[0m [1m[94m|[0m def load_all_models(root: Path) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                    [1m[91m^^^^[0m
+[1m[94m35[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m36[0m [1m[94m|[0m     return [load_model(root, m) for m in scope["models"]]
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_all_models(root: Path) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m34[0m [1m[32m+[0m [32mdef load_all_models(root: Path) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m35[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:34:41
+   [1m[94m|[0m
+[1m[94m34[0m [1m[94m|[0m def load_all_models(root: Path) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                         [1m[91m^^^^[0m
+[1m[94m35[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m36[0m [1m[94m|[0m     return [load_model(root, m) for m in scope["models"]]
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef load_all_models(root: Path) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m34[0m [1m[32m+[0m [32mdef load_all_models(root: Path) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m35[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:47:34
+   [1m[94m|[0m
+[1m[94m47[0m [1m[94m|[0m def compute_content_hash(models: List[Dict[str, Any]], sources: List[Dict[str, Any]]) -> str:
+   [1m[94m|[0m                                  [1m[91m^^^^[0m
+[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m49[0m [1m[94m|[0m     return sha256_text(canonical_json(payload))
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m46[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compute_content_hash(models: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]], sources: List[Dict[str, Any]]) -> str:
+[0m[1m[94m47[0m [1m[32m+[0m [32mdef compute_content_hash(models: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]], sources: List[Dict[str, Any]]) -> str:
+[0m[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:47:39
+   [1m[94m|[0m
+[1m[94m47[0m [1m[94m|[0m def compute_content_hash(models: List[Dict[str, Any]], sources: List[Dict[str, Any]]) -> str:
+   [1m[94m|[0m                                       [1m[91m^^^^[0m
+[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m49[0m [1m[94m|[0m     return sha256_text(canonical_json(payload))
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m46[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compute_content_hash(models: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]], sources: List[Dict[str, Any]]) -> str:
+[0m[1m[94m47[0m [1m[32m+[0m [32mdef compute_content_hash(models: [0m[1m[32mList[dict[str,[0m[0m[32m Any]], sources: List[Dict[str, Any]]) -> str:
+[0m[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:47:65
+   [1m[94m|[0m
+[1m[94m47[0m [1m[94m|[0m def compute_content_hash(models: List[Dict[str, Any]], sources: List[Dict[str, Any]]) -> str:
+   [1m[94m|[0m                                                                 [1m[91m^^^^[0m
+[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m49[0m [1m[94m|[0m     return sha256_text(canonical_json(payload))
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m46[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compute_content_hash(models: List[Dict[str, Any]], sources: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]) -> str:
+[0m[1m[94m47[0m [1m[32m+[0m [32mdef compute_content_hash(models: List[Dict[str, Any]], sources: [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]) -> str:
+[0m[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:47:70
+   [1m[94m|[0m
+[1m[94m47[0m [1m[94m|[0m def compute_content_hash(models: List[Dict[str, Any]], sources: List[Dict[str, Any]]) -> str:
+   [1m[94m|[0m                                                                      [1m[91m^^^^[0m
+[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m49[0m [1m[94m|[0m     return sha256_text(canonical_json(payload))
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m46[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compute_content_hash(models: List[Dict[str, Any]], sources: [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]) -> str:
+[0m[1m[94m47[0m [1m[32m+[0m [32mdef compute_content_hash(models: List[Dict[str, Any]], sources: [0m[1m[32mList[dict[str,[0m[0m[32m Any]]) -> str:
+[0m[1m[94m48[0m [1m[94m|[0m     payload = {"models": models, "sources": sources}
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/loader.py:52:31
+   [1m[94m|[0m
+[1m[94m52[0m [1m[94m|[0m def compute_scope_hash(scope: Dict[str, Any]) -> str:
+   [1m[94m|[0m                               [1m[91m^^^^[0m
+[1m[94m53[0m [1m[94m|[0m     payload = {
+[1m[94m54[0m [1m[94m|[0m         "models": scope["models"],
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m51[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef compute_scope_hash(scope: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> str:
+[0m[1m[94m52[0m [1m[32m+[0m [32mdef compute_scope_hash(scope: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> str:
+[0m[1m[94m53[0m [1m[94m|[0m     payload = {
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/query.py:6:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m import re
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m6[0m [1m[94m|[0m from typing import Any, Dict, List, Optional
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m from .loader import load_all_models, load_model, load_scope
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/query.py:6:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m import re
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m6[0m [1m[94m|[0m from typing import Any, Dict, List, Optional
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m from .loader import load_all_models, load_model, load_scope
+  [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:15:32
+   [1m[94m|[0m
+[1m[94m15[0m [1m[94m|[0m def list_models(root: Path) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                [1m[91m^^^^[0m
+[1m[94m16[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m17[0m [1m[94m|[0m     out = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m14[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef list_models(root: Path) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m15[0m [1m[32m+[0m [32mdef list_models(root: Path) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m16[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:15:37
+   [1m[94m|[0m
+[1m[94m15[0m [1m[94m|[0m def list_models(root: Path) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                     [1m[91m^^^^[0m
+[1m[94m16[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m17[0m [1m[94m|[0m     out = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m14[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef list_models(root: Path) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m15[0m [1m[32m+[0m [32mdef list_models(root: Path) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m16[0m [1m[94m|[0m     scope = load_scope(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:24:37
+   [1m[94m|[0m
+[1m[94m24[0m [1m[94m|[0m def find(root: Path, query: str) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                     [1m[91m^^^^[0m
+[1m[94m25[0m [1m[94m|[0m     q = _norm(query)
+[1m[94m26[0m [1m[94m|[0m     results = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m23[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef find(root: Path, query: str) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m24[0m [1m[32m+[0m [32mdef find(root: Path, query: str) -> [0m[1m[32mlist[Dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m25[0m [1m[94m|[0m     q = _norm(query)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:24:42
+   [1m[94m|[0m
+[1m[94m24[0m [1m[94m|[0m def find(root: Path, query: str) -> List[Dict[str, Any]]:
+   [1m[94m|[0m                                          [1m[91m^^^^[0m
+[1m[94m25[0m [1m[94m|[0m     q = _norm(query)
+[1m[94m26[0m [1m[94m|[0m     results = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m23[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef find(root: Path, query: str) -> [0m[1m[31mList[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m24[0m [1m[32m+[0m [32mdef find(root: Path, query: str) -> [0m[1m[32mList[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m25[0m [1m[94m|[0m     q = _norm(query)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP045[0m [[1m[96m*[0m][1m Use `X | None` for type annotations[0m
+  [1m[94m--> [0msrc/capabilities/query.py:43:45
+   [1m[94m|[0m
+[1m[94m43[0m [1m[94m|[0m def resolve_model(root: Path, name: str) -> Optional[Dict[str, Any]]:
+   [1m[94m|[0m                                             [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m44[0m [1m[94m|[0m     n = _norm(name)
+[1m[94m45[0m [1m[94m|[0m     scope = load_scope(root)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Convert to `X | None`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m42[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef resolve_model(root: Path, name: str) -> [0m[1m[31mOptional[Dict[str,[0m[0m[31m [0m[1m[31mAny]]:[0m[0m[31m
+[0m[1m[94m43[0m [1m[32m+[0m [32mdef resolve_model(root: Path, name: str) -> [0m[1m[32mDict[str, Any] |[0m[0m[32m [0m[1m[32mNone:[0m[0m[32m
+[0m[1m[94m44[0m [1m[94m|[0m     n = _norm(name)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:43:54
+   [1m[94m|[0m
+[1m[94m43[0m [1m[94m|[0m def resolve_model(root: Path, name: str) -> Optional[Dict[str, Any]]:
+   [1m[94m|[0m                                                      [1m[91m^^^^[0m
+[1m[94m44[0m [1m[94m|[0m     n = _norm(name)
+[1m[94m45[0m [1m[94m|[0m     scope = load_scope(root)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m42[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef resolve_model(root: Path, name: str) -> [0m[1m[31mOptional[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m43[0m [1m[32m+[0m [32mdef resolve_model(root: Path, name: str) -> [0m[1m[32mOptional[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m44[0m [1m[94m|[0m     n = _norm(name)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP045[0m [[1m[96m*[0m][1m Use `X | None` for type annotations[0m
+  [1m[94m--> [0msrc/capabilities/query.py:56:43
+   [1m[94m|[0m
+[1m[94m56[0m [1m[94m|[0m def is_excluded(root: Path, name: str) -> Optional[Dict[str, Any]]:
+   [1m[94m|[0m                                           [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m57[0m [1m[94m|[0m     """Return the excluded_models entry (if any) matching a name."""
+[1m[94m58[0m [1m[94m|[0m     n = _norm(name)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Convert to `X | None`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m55[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef is_excluded(root: Path, name: str) -> [0m[1m[31mOptional[Dict[str,[0m[0m[31m [0m[1m[31mAny]]:[0m[0m[31m
+[0m[1m[94m56[0m [1m[32m+[0m [32mdef is_excluded(root: Path, name: str) -> [0m[1m[32mDict[str, Any] |[0m[0m[32m [0m[1m[32mNone:[0m[0m[32m
+[0m[1m[94m57[0m [1m[94m|[0m     """Return the excluded_models entry (if any) matching a name."""
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:56:52
+   [1m[94m|[0m
+[1m[94m56[0m [1m[94m|[0m def is_excluded(root: Path, name: str) -> Optional[Dict[str, Any]]:
+   [1m[94m|[0m                                                    [1m[91m^^^^[0m
+[1m[94m57[0m [1m[94m|[0m     """Return the excluded_models entry (if any) matching a name."""
+[1m[94m58[0m [1m[94m|[0m     n = _norm(name)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m55[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef is_excluded(root: Path, name: str) -> [0m[1m[31mOptional[Dict[str,[0m[0m[31m Any]]:
+[0m[1m[94m56[0m [1m[32m+[0m [32mdef is_excluded(root: Path, name: str) -> [0m[1m[32mOptional[dict[str,[0m[0m[32m Any]]:
+[0m[1m[94m57[0m [1m[94m|[0m     """Return the excluded_models entry (if any) matching a name."""
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/query.py:66:19
+   [1m[94m|[0m
+[1m[94m66[0m [1m[94m|[0m def get_path(doc: Dict[str, Any], path: str) -> Any:
+   [1m[94m|[0m                   [1m[91m^^^^[0m
+[1m[94m67[0m [1m[94m|[0m     node: Any = doc
+[1m[94m68[0m [1m[94m|[0m     for part in path.split("."):
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m65[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef get_path(doc: [0m[1m[31mDict[str,[0m[0m[31m Any], path: str) -> Any:
+[0m[1m[94m66[0m [1m[32m+[0m [32mdef get_path(doc: [0m[1m[32mdict[str,[0m[0m[32m Any], path: str) -> Any:
+[0m[1m[94m67[0m [1m[94m|[0m     node: Any = doc
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.Dict` is deprecated, use `dict` instead[0m
+ [1m[94m--> [0msrc/capabilities/validator.py:6:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m import re
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m6[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m import jsonschema
+  [1m[94m|[0m
+
+[1m[91mUP035[0m[1m `typing.List` is deprecated, use `list` instead[0m
+ [1m[94m--> [0msrc/capabilities/validator.py:6:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m import re
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m6[0m [1m[94m|[0m from typing import Any, Dict, List
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m import jsonschema
+  [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:21:14
+   [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m # Enum tables ------------------------------------------------------------
+[1m[94m21[0m [1m[94m|[0m ENUM_TABLES: Dict[str, List[Any]] = {
+   [1m[94m|[0m              [1m[91m^^^^[0m
+[1m[94m22[0m [1m[94m|[0m     "bands.type": ["quad-band", "dual-band", "tri-band", "penta-band", "single-band", "other"],
+[1m[94m23[0m [1m[94m|[0m     "gprs.device_class": ["A", "B", "C"],
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m # Enum tables ------------------------------------------------------------
+[1m[94m  [0m [1m[31m-[0m [31mENUM_TABLES: [0m[1m[31mDict[str,[0m[0m[31m List[Any]] = {
+[0m[1m[94m21[0m [1m[32m+[0m [32mENUM_TABLES: [0m[1m[32mdict[str,[0m[0m[32m List[Any]] = {
+[0m[1m[94m22[0m [1m[94m|[0m     "bands.type": ["quad-band", "dual-band", "tri-band", "penta-band", "single-band", "other"],
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:21:24
+   [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m # Enum tables ------------------------------------------------------------
+[1m[94m21[0m [1m[94m|[0m ENUM_TABLES: Dict[str, List[Any]] = {
+   [1m[94m|[0m                        [1m[91m^^^^[0m
+[1m[94m22[0m [1m[94m|[0m     "bands.type": ["quad-band", "dual-band", "tri-band", "penta-band", "single-band", "other"],
+[1m[94m23[0m [1m[94m|[0m     "gprs.device_class": ["A", "B", "C"],
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m20[0m [1m[94m|[0m # Enum tables ------------------------------------------------------------
+[1m[94m  [0m [1m[31m-[0m [31mENUM_TABLES: Dict[str, [0m[1m[31mList[Any]][0m[0m[31m = {
+[0m[1m[94m21[0m [1m[32m+[0m [32mENUM_TABLES: Dict[str, [0m[1m[32mlist[Any]][0m[0m[32m = {
+[0m[1m[94m22[0m [1m[94m|[0m     "bands.type": ["quad-band", "dual-band", "tri-band", "penta-band", "single-band", "other"],
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:34:21
+   [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m # Conditional required sub-fields when supported.value == true ------------
+[1m[94m34[0m [1m[94m|[0m SUPPORTED_REQUIRED: Dict[str, List[str]] = {
+   [1m[94m|[0m                     [1m[91m^^^^[0m
+[1m[94m35[0m [1m[94m|[0m     "bluetooth": ["version", "profiles"],
+[1m[94m36[0m [1m[94m|[0m     "pcm": ["channels", "mode"],
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m # Conditional required sub-fields when supported.value == true ------------
+[1m[94m  [0m [1m[31m-[0m [31mSUPPORTED_REQUIRED: [0m[1m[31mDict[str,[0m[0m[31m List[str]] = {
+[0m[1m[94m34[0m [1m[32m+[0m [32mSUPPORTED_REQUIRED: [0m[1m[32mdict[str,[0m[0m[32m List[str]] = {
+[0m[1m[94m35[0m [1m[94m|[0m     "bluetooth": ["version", "profiles"],
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:34:31
+   [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m # Conditional required sub-fields when supported.value == true ------------
+[1m[94m34[0m [1m[94m|[0m SUPPORTED_REQUIRED: Dict[str, List[str]] = {
+   [1m[94m|[0m                               [1m[91m^^^^[0m
+[1m[94m35[0m [1m[94m|[0m     "bluetooth": ["version", "profiles"],
+[1m[94m36[0m [1m[94m|[0m     "pcm": ["channels", "mode"],
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m33[0m [1m[94m|[0m # Conditional required sub-fields when supported.value == true ------------
+[1m[94m  [0m [1m[31m-[0m [31mSUPPORTED_REQUIRED: Dict[str, [0m[1m[31mList[str]][0m[0m[31m = {
+[0m[1m[94m34[0m [1m[32m+[0m [32mSUPPORTED_REQUIRED: Dict[str, [0m[1m[32mlist[str]][0m[0m[32m = {
+[0m[1m[94m35[0m [1m[94m|[0m     "bluetooth": ["version", "profiles"],
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:42:44
+   [1m[94m|[0m
+[1m[94m42[0m [1m[94m|[0m def _load_schema(root: Path, name: str) -> Dict[str, Any]:
+   [1m[94m|[0m                                            [1m[91m^^^^[0m
+[1m[94m43[0m [1m[94m|[0m     import json
+[1m[94m44[0m [1m[94m|[0m     with (Path(root) / "data" / "capabilities" / "schema" / name).open("r", encoding="utf-8") as fh:
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m41[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef _load_schema(root: Path, name: str) -> [0m[1m[31mDict[str,[0m[0m[31m Any]:
+[0m[1m[94m42[0m [1m[32m+[0m [32mdef _load_schema(root: Path, name: str) -> [0m[1m[32mdict[str,[0m[0m[32m Any]:
+[0m[1m[94m43[0m [1m[94m|[0m     import json
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:52:29
+   [1m[94m|[0m
+[1m[94m52[0m [1m[94m|[0m def validate(root: Path) -> List[str]:
+   [1m[94m|[0m                             [1m[91m^^^^[0m
+[1m[94m53[0m [1m[94m|[0m     """Return list of errors. Empty list means valid."""
+[1m[94m54[0m [1m[94m|[0m     errors: List[str] = []
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m51[0m [1m[94m|[0m
+[1m[94m  [0m [1m[31m-[0m [31mdef validate(root: Path) -> [0m[1m[31mList[str]:[0m[0m[31m
+[0m[1m[94m52[0m [1m[32m+[0m [32mdef validate(root: Path) -> [0m[1m[32mlist[str]:[0m[0m[32m
+[0m[1m[94m53[0m [1m[94m|[0m     """Return list of errors. Empty list means valid."""
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+  [1m[94m--> [0msrc/capabilities/validator.py:54:13
+   [1m[94m|[0m
+[1m[94m52[0m [1m[94m|[0m def validate(root: Path) -> List[str]:
+[1m[94m53[0m [1m[94m|[0m     """Return list of errors. Empty list means valid."""
+[1m[94m54[0m [1m[94m|[0m     errors: List[str] = []
+   [1m[94m|[0m             [1m[91m^^^^[0m
+[1m[94m55[0m [1m[94m|[0m     root = Path(root)
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m53[0m [1m[94m|[0m     """Return list of errors. Empty list means valid."""
+[1m[94m  [0m [1m[31m-[0m [31m    errors: [0m[1m[31mList[str][0m[0m[31m = []
+[0m[1m[94m54[0m [1m[32m+[0m [32m    errors: [0m[1m[32mlist[str][0m[0m[32m = []
+[0m[1m[94m55[0m [1m[94m|[0m     root = Path(root)
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:115:19
+    [1m[94m|[0m
+[1m[94m113[0m [1m[94m|[0m     cap_schema = _load_schema(root, "capability.schema.json")
+[1m[94m114[0m [1m[94m|[0m     seen_models = set()
+[1m[94m115[0m [1m[94m|[0m     seen_aliases: Dict[str, str] = {}
+    [1m[94m|[0m                   [1m[91m^^^^[0m
+[1m[94m116[0m [1m[94m|[0m
+[1m[94m117[0m [1m[94m|[0m     for model_doc in load_all_models(root):
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m114[0m [1m[94m|[0m     seen_models = set()
+[1m[94m   [0m [1m[31m-[0m [31m    seen_aliases: [0m[1m[31mDict[str,[0m[0m[31m str] = {}
+[0m[1m[94m115[0m [1m[32m+[0m [32m    seen_aliases: [0m[1m[32mdict[str,[0m[0m[32m str] = {}
+[0m[1m[94m116[0m [1m[94m|[0m
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:171:51
+    [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m def _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                   [1m[91m^^^^[0m
+[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m173[0m [1m[94m|[0m     status = fv.get("status")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m170[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_field_value(model: str, path: str, fv: [0m[1m[31mDict[str,[0m[0m[31m Any], sources_by_id: Dict[str, Any]) -> List[str]:
+[0m[1m[94m171[0m [1m[32m+[0m [32mdef _check_field_value(model: str, path: str, fv: [0m[1m[32mdict[str,[0m[0m[32m Any], sources_by_id: Dict[str, Any]) -> List[str]:
+[0m[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:171:82
+    [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m def _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                                                  [1m[91m^^^^[0m
+[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m173[0m [1m[94m|[0m     status = fv.get("status")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m170[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> List[str]:
+[0m[1m[94m171[0m [1m[32m+[0m [32mdef _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> List[str]:
+[0m[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:171:101
+    [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m def _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                                                                     [1m[91m^^^^[0m
+[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m173[0m [1m[94m|[0m     status = fv.get("status")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m170[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> [0m[1m[31mList[str]:[0m[0m[31m
+[0m[1m[94m171[0m [1m[32m+[0m [32mdef _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> [0m[1m[32mlist[str]:[0m[0m[32m
+[0m[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:172:11
+    [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m def _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> List[str]:
+[1m[94m172[0m [1m[94m|[0m     errs: List[str] = []
+    [1m[94m|[0m           [1m[91m^^^^[0m
+[1m[94m173[0m [1m[94m|[0m     status = fv.get("status")
+[1m[94m174[0m [1m[94m|[0m     value = fv.get("value")
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m171[0m [1m[94m|[0m def _check_field_value(model: str, path: str, fv: Dict[str, Any], sources_by_id: Dict[str, Any]) -> List[str]:
+[1m[94m   [0m [1m[31m-[0m [31m    errs: [0m[1m[31mList[str][0m[0m[31m = []
+[0m[1m[94m172[0m [1m[32m+[0m [32m    errs: [0m[1m[32mlist[str][0m[0m[32m = []
+[0m[1m[94m173[0m [1m[94m|[0m     status = fv.get("status")
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:226:52
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m def _check_supported_requirements(model: str, doc: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                    [1m[91m^^^^[0m
+[1m[94m227[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m228[0m [1m[94m|[0m     caps = doc.get("capabilities", {}) or {}
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_supported_requirements(model: str, doc: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> List[str]:
+[0m[1m[94m226[0m [1m[32m+[0m [32mdef _check_supported_requirements(model: str, doc: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> List[str]:
+[0m[1m[94m227[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:226:71
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m def _check_supported_requirements(model: str, doc: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                                       [1m[91m^^^^[0m
+[1m[94m227[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m228[0m [1m[94m|[0m     caps = doc.get("capabilities", {}) or {}
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_supported_requirements(model: str, doc: Dict[str, Any]) -> [0m[1m[31mList[str]:[0m[0m[31m
+[0m[1m[94m226[0m [1m[32m+[0m [32mdef _check_supported_requirements(model: str, doc: Dict[str, Any]) -> [0m[1m[32mlist[str]:[0m[0m[32m
+[0m[1m[94m227[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:227:11
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m def _check_supported_requirements(model: str, doc: Dict[str, Any]) -> List[str]:
+[1m[94m227[0m [1m[94m|[0m     errs: List[str] = []
+    [1m[94m|[0m           [1m[91m^^^^[0m
+[1m[94m228[0m [1m[94m|[0m     caps = doc.get("capabilities", {}) or {}
+[1m[94m229[0m [1m[94m|[0m     for cap_name, req_fields in SUPPORTED_REQUIRED.items():
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m def _check_supported_requirements(model: str, doc: Dict[str, Any]) -> List[str]:
+[1m[94m   [0m [1m[31m-[0m [31m    errs: [0m[1m[31mList[str][0m[0m[31m = []
+[0m[1m[94m227[0m [1m[32m+[0m [32m    errs: [0m[1m[32mlist[str][0m[0m[32m = []
+[0m[1m[94m228[0m [1m[94m|[0m     caps = doc.get("capabilities", {}) or {}
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (151 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:242:121
+    [1m[94m|[0m
+[1m[94m240[0m [1m[94m|[0m [1m[94m…[0m: required when supported.value is true")
+[1m[94m241[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m242[0m [1m[94m|[0m [1m[94m…[0mt in {"not_supported", "not_documented", "not_in_scope", "conflict", "inferred"}:
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m243[0m [1m[94m|[0m [1m[94m…[0m: value required when supported.value is true")
+[1m[94m244[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `dict` instead of `Dict` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:247:39
+    [1m[94m|[0m
+[1m[94m247[0m [1m[94m|[0m def _check_conflicts(model: str, doc: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                       [1m[91m^^^^[0m
+[1m[94m248[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m249[0m [1m[94m|[0m     conflicts = (doc.get("metadata") or {}).get("conflicts") or []
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `dict`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m246[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_conflicts(model: str, doc: [0m[1m[31mDict[str,[0m[0m[31m Any]) -> List[str]:
+[0m[1m[94m247[0m [1m[32m+[0m [32mdef _check_conflicts(model: str, doc: [0m[1m[32mdict[str,[0m[0m[32m Any]) -> List[str]:
+[0m[1m[94m248[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:247:58
+    [1m[94m|[0m
+[1m[94m247[0m [1m[94m|[0m def _check_conflicts(model: str, doc: Dict[str, Any]) -> List[str]:
+    [1m[94m|[0m                                                          [1m[91m^^^^[0m
+[1m[94m248[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m249[0m [1m[94m|[0m     conflicts = (doc.get("metadata") or {}).get("conflicts") or []
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m246[0m [1m[94m|[0m
+[1m[94m   [0m [1m[31m-[0m [31mdef _check_conflicts(model: str, doc: Dict[str, Any]) -> [0m[1m[31mList[str]:[0m[0m[31m
+[0m[1m[94m247[0m [1m[32m+[0m [32mdef _check_conflicts(model: str, doc: Dict[str, Any]) -> [0m[1m[32mlist[str]:[0m[0m[32m
+[0m[1m[94m248[0m [1m[94m|[0m     errs: List[str] = []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mUP006[0m [[1m[96m*[0m][1m Use `list` instead of `List` for type annotation[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:248:11
+    [1m[94m|[0m
+[1m[94m247[0m [1m[94m|[0m def _check_conflicts(model: str, doc: Dict[str, Any]) -> List[str]:
+[1m[94m248[0m [1m[94m|[0m     errs: List[str] = []
+    [1m[94m|[0m           [1m[91m^^^^[0m
+[1m[94m249[0m [1m[94m|[0m     conflicts = (doc.get("metadata") or {}).get("conflicts") or []
+    [1m[94m|[0m
+[1m[96mhelp[0m[1m: Replace with `list`[0m
+[1m[94m   [0m [1m[94m|[0m
+[1m[94m247[0m [1m[94m|[0m def _check_conflicts(model: str, doc: Dict[str, Any]) -> List[str]:
+[1m[94m   [0m [1m[31m-[0m [31m    errs: [0m[1m[31mList[str][0m[0m[31m = []
+[0m[1m[94m248[0m [1m[32m+[0m [32m    errs: [0m[1m[32mlist[str][0m[0m[32m = []
+[0m[1m[94m249[0m [1m[94m|[0m     conflicts = (doc.get("metadata") or {}).get("conflicts") or []
+[1m[94m   [0m [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `io` imported but unused[0m
+  [1m[94m--> [0msrc/generators/cpp_header/generate_at_urc.py:15:8
+   [1m[94m|[0m
+[1m[94m13[0m [1m[94m|[0m import argparse
+[1m[94m14[0m [1m[94m|[0m import csv
+[1m[94m15[0m [1m[94m|[0m import io
+   [1m[94m|[0m        [1m[91m^^[0m
+[1m[94m16[0m [1m[94m|[0m import json
+[1m[94m17[0m [1m[94m|[0m import sys
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove unused import: `io`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m14[0m [1m[94m|[0m import csv
+[1m[94m  [0m [1m[31m-[0m [31mimport io
+[0m[1m[94m15[0m [1m[94m|[0m import json
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (122 > 120)[0m
+   [1m[94m--> [0msrc/generators/cpp_header/generate_at_urc.py:207:121
+    [1m[94m|[0m
+[1m[94m205[0m [1m[94m|[0m                 lines.append(f"    AT_COMMANDS[{j}],\n")
+[1m[94m206[0m [1m[94m|[0m             lines.append("};\n")
+[1m[94m207[0m [1m[94m|[0m             lines.append(f"inline constexpr const ATCommand* const CMDS_BY_CAT_{id_safe} = CMDS_BY_CAT_{id_safe}_DATA;\n")
+    [1m[94m|[0m                                                                                                                         [1m[91m^^[0m
+[1m[94m208[0m [1m[94m|[0m             lines.append(f"inline constexpr std::size_t CMDS_BY_CAT_{id_safe}_COUNT = {len(filtered)};\n\n")
+[1m[94m209[0m [1m[94m|[0m         else:
+    [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+  [1m[94m--> [0msrc/sim800_tools/cli.py:3:1
+   [1m[94m|[0m
+[1m[94m 1[0m [1m[94m|[0m   """Command-line interface for the SIM800 platform."""
+[1m[94m 2[0m [1m[94m|[0m
+[1m[94m 3[0m [1m[94m|[0m [1m[91m/[0m from __future__ import annotations
+[1m[94m 4[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 5[0m [1m[94m|[0m [1m[91m|[0m import argparse
+[1m[94m 6[0m [1m[94m|[0m [1m[91m|[0m import json
+[1m[94m 7[0m [1m[94m|[0m [1m[91m|[0m from pathlib import Path
+[1m[94m 8[0m [1m[94m|[0m [1m[91m|[0m
+[1m[94m 9[0m [1m[94m|[0m [1m[91m|[0m from sim800_diffing import write_diff
+[1m[94m10[0m [1m[94m|[0m [1m[91m|[0m from sim800_validation import validate_directory
+[1m[94m11[0m [1m[94m|[0m [1m[91m|[0m from capabilities.cli import main as capabilities_main
+   [1m[94m|[0m [1m[91m|______________________________________________________^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m8 [0m [1m[94m|[0m
+[1m[94m9 [0m [1m[32m+[0m [32mfrom capabilities.cli import main as capabilities_main
+[0m[1m[94m10[0m [1m[94m|[0m from sim800_diffing import write_diff
+[1m[94m11[0m [1m[94m|[0m from sim800_validation import validate_directory
+[1m[94m  [0m [1m[31m-[0m [31mfrom capabilities.cli import main as capabilities_main
+[0m[1m[94m12[0m [1m[94m|[0m
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_audit.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_compare.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_cpp.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_cpp.py:5:1
+  [1m[94m|[0m
+[1m[94m3[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.cpp import render_header, render_from_root, write_cpp_header
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m [0m [1m[31m-[0m [31mfrom capabilities.cpp import [0m[31mrender_header, [0m[1m[31mrender_from_root, [0m[0m[31mwrite_cpp_header
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom capabilities.cpp import [0m[1m[32mrender_from_root, [0m[0m[32mrender_header, [0m[32mwrite_cpp_header
+[0m[1m[94m6[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `capabilities.cpp.render_header` imported but unused[0m
+ [1m[94m--> [0mtests/capabilities/test_cpp.py:5:30
+  [1m[94m|[0m
+[1m[94m3[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.cpp import render_header, render_from_root, write_cpp_header
+  [1m[94m|[0m                              [1m[91m^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m[1m: Remove unused import: `capabilities.cpp.render_header`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m [0m [1m[31m-[0m [31mfrom capabilities.cpp import [0m[1m[31mrender_header, [0m[0m[31mrender_from_root, write_cpp_header
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom capabilities.cpp import [0m[32mrender_from_root, write_cpp_header
+[0m[1m[94m6[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_data_integrity.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_generate.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_loader.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_loader.py:5:1
+  [1m[94m|[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m [1m[91m/[0m from capabilities.loader import (
+[1m[94m6[0m [1m[94m|[0m [1m[91m|[0m     load_scope, load_sources, load_model, load_all_models,
+[1m[94m7[0m [1m[94m|[0m [1m[91m|[0m     compute_content_hash, compute_scope_hash, canonical_json,
+[1m[94m8[0m [1m[94m|[0m [1m[91m|[0m )
+  [1m[94m|[0m [1m[91m|_^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m5 [0m [1m[94m|[0m from capabilities.loader import (
+[1m[94m  [0m [1m[31m-[0m [31m    load_scope, load_sources, load_model, load_all_models,
+[0m[1m[94m  [0m [1m[31m-[0m [31m    compute_content_hash, compute_scope_hash, canonical_json,
+[0m[1m[94m6 [0m [1m[32m+[0m [32m    canonical_json,
+[0m[1m[94m7 [0m [1m[32m+[0m [32m    compute_content_hash,
+[0m[1m[94m8 [0m [1m[32m+[0m [32m    compute_scope_hash,
+[0m[1m[94m9 [0m [1m[32m+[0m [32m    load_all_models,
+[0m[1m[94m10[0m [1m[32m+[0m [32m    load_model,
+[0m[1m[94m11[0m [1m[32m+[0m [32m    load_scope,
+[0m[1m[94m12[0m [1m[32m+[0m [32m    load_sources,
+[0m[1m[94m13[0m [1m[94m|[0m )
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `capabilities.loader.load_model` imported but unused[0m
+ [1m[94m--> [0mtests/capabilities/test_loader.py:6:31
+  [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.loader import (
+[1m[94m6[0m [1m[94m|[0m     load_scope, load_sources, load_model, load_all_models,
+  [1m[94m|[0m                               [1m[91m^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m     compute_content_hash, compute_scope_hash, canonical_json,
+[1m[94m8[0m [1m[94m|[0m )
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove unused import[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.loader import (
+[1m[94m [0m [1m[31m-[0m [31m    load_scope, load_sources, [0m[1m[31mload_model, [0m[0m[31mload_all_models,
+[0m[1m[94m [0m [1m[31m-[0m [31m    compute_content_hash, [0m[1m[31mcompute_scope_hash, [0m[0m[31mcanonical_json,
+[0m[1m[94m6[0m [1m[32m+[0m [32m    load_scope, load_sources, [0m[32mload_all_models,
+[0m[1m[94m7[0m [1m[32m+[0m [32m    compute_content_hash, [0m[32mcanonical_json,
+[0m[1m[94m8[0m [1m[94m|[0m )
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mF401[0m [[1m[96m*[0m][1m `capabilities.loader.compute_scope_hash` imported but unused[0m
+ [1m[94m--> [0mtests/capabilities/test_loader.py:7:27
+  [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.loader import (
+[1m[94m6[0m [1m[94m|[0m     load_scope, load_sources, load_model, load_all_models,
+[1m[94m7[0m [1m[94m|[0m     compute_content_hash, compute_scope_hash, canonical_json,
+  [1m[94m|[0m                           [1m[91m^^^^^^^^^^^^^^^^^^[0m
+[1m[94m8[0m [1m[94m|[0m )
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Remove unused import[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.loader import (
+[1m[94m [0m [1m[31m-[0m [31m    load_scope, load_sources, [0m[1m[31mload_model, [0m[0m[31mload_all_models,
+[0m[1m[94m [0m [1m[31m-[0m [31m    compute_content_hash, [0m[1m[31mcompute_scope_hash, [0m[0m[31mcanonical_json,
+[0m[1m[94m6[0m [1m[32m+[0m [32m    load_scope, load_sources, [0m[32mload_all_models,
+[0m[1m[94m7[0m [1m[32m+[0m [32m    compute_content_hash, [0m[32mcanonical_json,
+[0m[1m[94m8[0m [1m[94m|[0m )
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_query.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_query.py:5:1
+  [1m[94m|[0m
+[1m[94m3[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from capabilities.query import list_models, find, resolve_model, get_path
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m
+[1m[94m [0m [1m[31m-[0m [31mfrom capabilities.query import [0m[31mlist_models, [0m[1m[31mfind, resolve_model, get_path[0m[0m[31m
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom capabilities.query import [0m[1m[32mfind, get_path, [0m[0m[32mlist_models, [0m[1m[32mresolve_model[0m[0m[32m
+[0m[1m[94m6[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mI001[0m [[1m[96m*[0m][1m Import block is un-sorted or un-formatted[0m
+ [1m[94m--> [0mtests/capabilities/test_validator.py:1:1
+  [1m[94m|[0m
+[1m[94m1[0m [1m[94m|[0m [1m[91m/[0m from pathlib import Path
+[1m[94m2[0m [1m[94m|[0m [1m[91m|[0m import sys
+  [1m[94m|[0m [1m[91m|__________^[0m
+[1m[94m3[0m [1m[94m|[0m   sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Organize imports[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m1[0m [1m[32m+[0m [32mimport sys
+[0m[1m[94m2[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mimport sys
+[0m[1m[94m3[0m [1m[32m+[0m[32m
+[0m[1m[94m4[0m [1m[94m|[0m sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+[1m[94m [0m [1m[94m|[0m
+
+Found 142 errors.
+[[36m*[0m] 83 fixable with `--fix`.

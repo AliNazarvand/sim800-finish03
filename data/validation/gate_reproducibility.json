@@ -1,0 +1,11 @@
+{
+  "gate": "Reproducibility",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "rebuild hash stability",
+      "status": "PASS",
+      "detail": "product and diff hashes are unchanged after a clean rebuild"
+    }
+  ]
+}

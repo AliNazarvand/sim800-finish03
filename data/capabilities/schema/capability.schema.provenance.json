@@ -1,0 +1,1 @@
+{"source_repo":"https://github.com/AliNazarvand/sim800-capabilities","source_commit":"41956a1282f7ee384a39ba6e488e1b8a958799b8","source_path":"schema/capability.schema.json","source_sha256":"5d4b9f3a6426587f79939b4c54cfedd1d2af551c047afeeded1b72e3a6117b90","ported_at":"2026-10-18T18:44:22+00:00","destination":"data/capabilities/schema/capability.schema.json"}

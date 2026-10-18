@@ -1,0 +1,19 @@
+ src/capabilities/audit.py                    | 10 [32m+++++[m[31m-----[m
+ src/capabilities/cli.py                      |  8 [32m++++[m[31m----[m
+ src/capabilities/compare.py                  |  7 [32m+++[m[31m----[m
+ src/capabilities/cpp.py                      | 13 [32m++++++[m[31m-------[m
+ src/capabilities/generate.py                 |  7 [32m+++[m[31m----[m
+ src/capabilities/loader.py                   | 18 [32m+++++++++[m[31m---------[m
+ src/capabilities/query.py                    | 12 [32m++++++[m[31m------[m
+ src/capabilities/validator.py                | 26 [32m+++++++++++++[m[31m-------------[m
+ src/generators/cpp_header/generate_at_urc.py |  1 [31m-[m
+ src/sim800_tools/cli.py                      |  2 [32m+[m[31m-[m
+ tests/capabilities/test_audit.py             |  3 [32m++[m[31m-[m
+ tests/capabilities/test_compare.py           |  3 [32m++[m[31m-[m
+ tests/capabilities/test_cpp.py               |  5 [32m+++[m[31m--[m
+ tests/capabilities/test_data_integrity.py    |  2 [32m+[m[31m-[m
+ tests/capabilities/test_generate.py          |  3 [32m++[m[31m-[m
+ tests/capabilities/test_loader.py            | 10 [32m+++++++[m[31m---[m
+ tests/capabilities/test_query.py             |  5 [32m+++[m[31m--[m
+ tests/capabilities/test_validator.py         |  3 [32m++[m[31m-[m
+ 18 files changed, 72 insertions(+), 66 deletions(-)

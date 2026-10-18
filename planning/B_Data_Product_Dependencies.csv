@@ -1,0 +1,5 @@
+product_id,depends_on
+commands,schemas
+commands_versions,commands
+deprecated_commands,commands_versions
+error_codes,schemas

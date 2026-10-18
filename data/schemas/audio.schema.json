@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "audio",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "command": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "coverage_estimate": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "related_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "response": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "syntax": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {}
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "command",
+    "confidence",
+    "conflicts",
+    "created_at",
+    "examples",
+    "id",
+    "notes",
+    "parameters",
+    "related_commands",
+    "response",
+    "source",
+    "source_type",
+    "status",
+    "syntax",
+    "tags",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

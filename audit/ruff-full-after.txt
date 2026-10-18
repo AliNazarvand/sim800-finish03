@@ -1,0 +1,76 @@
+[1m[91mUP035[0m [[1m[96m*[0m][1m Import from `collections.abc` instead: `Iterator`[0m
+ [1m[94m--> [0msrc/capabilities/audit.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Iterator
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .loader import load_all_models
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Import from `collections.abc`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mfrom typing import [0m[1m[31mAny,[0m[0m[31m Iterator
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom typing import [0m[1m[32mAny[0m[0m[32m
+[0m[1m[94m6[0m [1m[32m+[0m [1m[32mfrom collections.abc import[0m[0m[32m Iterator
+[0m[1m[94m7[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP035[0m [[1m[96m*[0m][1m Import from `collections.abc` instead: `Iterator`[0m
+  [1m[94m--> [0msrc/capabilities/cli.py:10:1
+   [1m[94m|[0m
+[1m[94m 8[0m [1m[94m|[0m import sys
+[1m[94m 9[0m [1m[94m|[0m from pathlib import Path
+[1m[94m10[0m [1m[94m|[0m from typing import Any, Iterator, cast
+   [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m11[0m [1m[94m|[0m
+[1m[94m12[0m [1m[94m|[0m import yaml
+   [1m[94m|[0m
+[1m[96mhelp[0m[1m: Import from `collections.abc`[0m
+[1m[94m  [0m [1m[94m|[0m
+[1m[94m9 [0m [1m[94m|[0m from pathlib import Path
+[1m[94m  [0m [1m[31m-[0m [31mfrom typing import Any, [0m[1m[31mIterator, [0m[0m[31mcast
+[0m[1m[94m10[0m [1m[32m+[0m [32mfrom typing import Any, [0m[32mcast
+[0m[1m[94m11[0m [1m[32m+[0m [1m[32mfrom collections.abc import Iterator[0m[0m[32m
+[0m[1m[94m12[0m [1m[94m|[0m
+[1m[94m  [0m [1m[94m|[0m
+
+[1m[91mUP035[0m [[1m[96m*[0m][1m Import from `collections.abc` instead: `Iterator`[0m
+ [1m[94m--> [0msrc/capabilities/compare.py:5:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m5[0m [1m[94m|[0m from typing import Any, Iterator
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m6[0m [1m[94m|[0m
+[1m[94m7[0m [1m[94m|[0m from .query import resolve_model
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Import from `collections.abc`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mfrom typing import [0m[1m[31mAny,[0m[0m[31m Iterator
+[0m[1m[94m5[0m [1m[32m+[0m [32mfrom typing import [0m[1m[32mAny[0m[0m[32m
+[0m[1m[94m6[0m [1m[32m+[0m [1m[32mfrom collections.abc import[0m[0m[32m Iterator
+[0m[1m[94m7[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+[1m[91mUP035[0m [[1m[96m*[0m][1m Import from `collections.abc` instead: `Iterator`[0m
+ [1m[94m--> [0msrc/capabilities/validator.py:6:1
+  [1m[94m|[0m
+[1m[94m4[0m [1m[94m|[0m import re
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m6[0m [1m[94m|[0m from typing import Any, Iterator, cast
+  [1m[94m|[0m [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m7[0m [1m[94m|[0m
+[1m[94m8[0m [1m[94m|[0m import jsonschema
+  [1m[94m|[0m
+[1m[96mhelp[0m[1m: Import from `collections.abc`[0m
+[1m[94m [0m [1m[94m|[0m
+[1m[94m5[0m [1m[94m|[0m from pathlib import Path
+[1m[94m [0m [1m[31m-[0m [31mfrom typing import Any, [0m[1m[31mIterator, [0m[0m[31mcast
+[0m[1m[94m6[0m [1m[32m+[0m [32mfrom typing import Any, [0m[32mcast
+[0m[1m[94m7[0m [1m[32m+[0m [1m[32mfrom collections.abc import Iterator[0m[0m[32m
+[0m[1m[94m8[0m [1m[94m|[0m
+[1m[94m [0m [1m[94m|[0m
+
+Found 4 errors.
+[[36m*[0m] 4 fixable with `--fix`.

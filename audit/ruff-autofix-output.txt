@@ -1,0 +1,483 @@
+[1m[91mE501[0m[1m Line too long (121 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/audit.py:37:121
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m def conflicts_report(root: Path, model_filter: str | None = None, unresolved_only: bool = False) -> list[dict[str, Any]]:
+   [1m[94m|[0m                                                                                                                         [1m[91m^[0m
+[1m[94m38[0m [1m[94m|[0m     import json
+[1m[94m39[0m [1m[94m|[0m     out: list[dict[str, Any]] = []
+   [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:214:36
+    [1m[94m|[0m
+[1m[94m212[0m [1m[94m|[0m     sub = p.add_subparsers(dest="command", required=True)
+[1m[94m213[0m [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+    [1m[94m|[0m                                    [1m[91m^[0m
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:32
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:103
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m     sp = sub.add_parser("validate"); sp.set_defaults(func=cmd_validate)
+[1m[94m215[0m [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                                                                                       [1m[91m^[0m
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (134 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:216:121
+    [1m[94m|[0m
+[1m[94m214[0m [1m[94m|[0m [1m[94m…[0m_validate)
+[1m[94m215[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0mchoices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+    [1m[94m|[0m                                                             [1m[91m^^^^^^^^^^^^^^[0m
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:32
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:58
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m     sp = sub.add_parser("list"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                                          [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:121
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0ml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:218:129
+    [1m[94m|[0m
+[1m[94m216[0m [1m[94m|[0m [1m[94m…[0moices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_list)
+[1m[94m217[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:32
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:58
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m     sp = sub.add_parser("show"); sp.add_argument("model"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m219[0m [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+    [1m[94m|[0m                                                          [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:121
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0m("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0m"path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml")[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:220:129
+    [1m[94m|[0m
+[1m[94m218[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_show)
+[1m[94m219[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0md_argument("path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], defa[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:31
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                               [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:57
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                                                         [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:82
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m     sp = sub.add_parser("find"); sp.add_argument("query"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.[1m[94m…[0m
+[1m[94m221[0m [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+    [1m[94m|[0m                                                                                  [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (237 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:121
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mdefault="yaml"); sp.set_defaults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0m, action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_get)
+    [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mat", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:136
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0ment("path"); sp.add_argument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="ya[1m[94m…[0m
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0margument("model2"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:222:207
+    [1m[94m|[0m
+[1m[94m220[0m [1m[94m|[0m [1m[94m…[0mults(func=cmd_find)
+[1m[94m221[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_get)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0m], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:35
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                   [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:62
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                                              [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:89
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m     sp = sub.add_parser("get"); sp.add_argument("model"); sp.add_argument("path"); sp.add_argument("--value-only", action="store_true[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+    [1m[94m|[0m                                                                                         [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (194 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:121
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mrgument("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m                               [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0mv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:224:160
+    [1m[94m|[0m
+[1m[94m222[0m [1m[94m|[0m [1m[94m…[0mment("--value-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(fu[1m[94m…[0m
+[1m[94m223[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:34
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m                                  [1m[91m^[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:119
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m     sp = sub.add_parser("compare"); sp.add_argument("model1"); sp.add_argument("model2"); sp.add_argument("--format", choices=["yaml"[1m[94m…[0m
+[1m[94m225[0m [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+    [1m[94m|[0m                                                                                                                       [1m[91m^[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (152 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:226:121
+    [1m[94m|[0m
+[1m[94m224[0m [1m[94m|[0m [1m[94m…[0margument("model2"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_compare)
+[1m[94m225[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0mes=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:36
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m                                    [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:113
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m     sp = sub.add_parser("export"); sp.add_argument("--format", choices=["yaml", "json", "csv", "cpp"], default="yaml"); sp.set_defaul[1m[94m…[0m
+[1m[94m227[0m [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+    [1m[94m|[0m                                                                                                                 [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (188 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:121
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m"csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m                                  [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0ment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:228:153
+    [1m[94m|[0m
+[1m[94m226[0m [1m[94m|[0m [1m[94m…[0m "csv", "cpp"], default="yaml"); sp.set_defaults(func=cmd_export)
+[1m[94m227[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m, "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0mment("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:33
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m                                 [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:75
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m     sp = sub.add_parser("generate"); sp.add_argument("--target", choices=["yaml", "cpp", "all"], default="yaml"); sp.add_argument("--[1m[94m…[0m
+[1m[94m229[0m [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+    [1m[94m|[0m                                                                           [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (178 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:121
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0mcpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0margument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m                                       [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0madd_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.se[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:230:146
+    [1m[94m|[0m
+[1m[94m228[0m [1m[94m|[0m [1m[94m…[0m, "cpp", "all"], default="yaml"); sp.add_argument("--out", default=None); sp.set_defaults(func=cmd_generate)
+[1m[94m229[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0msp.add_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp[1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:37
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m                                     [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m
+[1m[94m234[0m [1m[94m|[0m     return p
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:79
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m     sp = sub.add_parser("audit"); sp.add_argument("--model", default=None); sp.add_argument("--format", choices=["yaml", "json"], def[1m[94m…[0m
+[1m[94m231[0m [1m[94m|[0m
+[1m[94m232[0m [1m[94m|[0m     sp = sub.add_parser("conflicts"); sp.add_argument("--model", default=None); sp.add_argument("--unresolved-only", action="store_tr[1m[94m…[0m
+    [1m[94m|[0m                                                                               [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m
+[1m[94m234[0m [1m[94m|[0m     return p
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (245 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:121
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0maml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0m, action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_conflicts)
+    [1m[94m|[0m       [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:138
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0me); sp.add_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0m=None); sp.add_argument("--unresolved-only", action="store_true"); sp.add_argument("--format", choices=["yaml", "json"], default="ya[1m[94m…[0m
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE702[0m[1m Multiple statements on one line (semicolon)[0m
+   [1m[94m--> [0msrc/capabilities/cli.py:232:209
+    [1m[94m|[0m
+[1m[94m230[0m [1m[94m|[0m [1m[94m…[0m"); sp.set_defaults(func=cmd_audit)
+[1m[94m231[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m232[0m [1m[94m|[0m [1m[94m…[0mdd_argument("--format", choices=["yaml", "json"], default="yaml"); sp.set_defaults(func=cmd_conflicts)
+    [1m[94m|[0m                                                                   [1m[91m^[0m
+[1m[94m233[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m234[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (159 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:36:121
+   [1m[94m|[0m
+[1m[94m34[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m35[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m36[0m [1m[94m|[0m [1m[94m…[0m_value": {"value": f2["value"], "status": f2["status"]}, "diff_type": "missing_left"})
+   [1m[94m|[0m                                                 [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m37[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m38[0m [1m[94m|[0m [1m[94m…[0m
+   [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (160 > 120)[0m
+  [1m[94m--> [0msrc/capabilities/compare.py:39:121
+   [1m[94m|[0m
+[1m[94m37[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m38[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m39[0m [1m[94m|[0m [1m[94m…[0mvalue"], "status": f1["status"]}, "model2_value": None, "diff_type": "missing_right"})
+   [1m[94m|[0m                                                [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m40[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m41[0m [1m[94m|[0m [1m[94m…[0m
+   [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (151 > 120)[0m
+   [1m[94m--> [0msrc/capabilities/validator.py:242:121
+    [1m[94m|[0m
+[1m[94m240[0m [1m[94m|[0m [1m[94m…[0m: required when supported.value is true")
+[1m[94m241[0m [1m[94m|[0m [1m[94m…[0m
+[1m[94m242[0m [1m[94m|[0m [1m[94m…[0mt in {"not_supported", "not_documented", "not_in_scope", "conflict", "inferred"}:
+    [1m[94m|[0m                                                    [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1m[94m243[0m [1m[94m|[0m [1m[94m…[0m: value required when supported.value is true")
+[1m[94m244[0m [1m[94m|[0m [1m[94m…[0m
+    [1m[94m|[0m
+
+[1m[91mE501[0m[1m Line too long (122 > 120)[0m
+   [1m[94m--> [0msrc/generators/cpp_header/generate_at_urc.py:206:121
+    [1m[94m|[0m
+[1m[94m204[0m [1m[94m|[0m                 lines.append(f"    AT_COMMANDS[{j}],\n")
+[1m[94m205[0m [1m[94m|[0m             lines.append("};\n")
+[1m[94m206[0m [1m[94m|[0m             lines.append(f"inline constexpr const ATCommand* const CMDS_BY_CAT_{id_safe} = CMDS_BY_CAT_{id_safe}_DATA;\n")
+    [1m[94m|[0m                                                                                                                         [1m[91m^^[0m
+[1m[94m207[0m [1m[94m|[0m             lines.append(f"inline constexpr std::size_t CMDS_BY_CAT_{id_safe}_COUNT = {len(filtered)};\n\n")
+[1m[94m208[0m [1m[94m|[0m         else:
+    [1m[94m|[0m
+
+Found 141 errors (97 fixed, 44 remaining).

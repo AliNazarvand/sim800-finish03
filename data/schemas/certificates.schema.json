@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "certificates",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "cert_format": {
+      "type": [
+        "null"
+      ]
+    },
+    "cipher_suite": {
+      "type": [
+        "null"
+      ]
+    },
+    "command": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "coverage_estimate": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "examples": {
+      "type": "array",
+      "items": {}
+    },
+    "id": {
+      "type": "string"
+    },
+    "key_format": {
+      "type": [
+        "null"
+      ]
+    },
+    "limits": {
+      "type": [
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "array",
+      "items": {}
+    },
+    "related_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "response": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "storage": {
+      "type": [
+        "null"
+      ]
+    },
+    "syntax": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {}
+    },
+    "tls_version": {
+      "type": [
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "cert_format",
+    "cipher_suite",
+    "command",
+    "confidence",
+    "conflicts",
+    "coverage_estimate",
+    "created_at",
+    "examples",
+    "id",
+    "key_format",
+    "limits",
+    "notes",
+    "parameters",
+    "related_commands",
+    "response",
+    "source",
+    "source_type",
+    "status",
+    "storage",
+    "syntax",
+    "tags",
+    "tls_version",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

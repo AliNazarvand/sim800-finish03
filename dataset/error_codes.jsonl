@@ -1,0 +1,255 @@
+{"code": "CME-0", "category": "CME", "description": "phone failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-1", "category": "CME", "description": "no connection to phone", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-2", "category": "CME", "description": "phone-adaptor link reserved", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-3", "category": "CME", "description": "operation not allowed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-4", "category": "CME", "description": "operation not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-5", "category": "CME", "description": "PH-SIM PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-6", "category": "CME", "description": "PH-FSIM PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-7", "category": "CME", "description": "PH-FSIM PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-10", "category": "CME", "description": "SIM not inserted", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-11", "category": "CME", "description": "SIM PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-12", "category": "CME", "description": "SIM PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-13", "category": "CME", "description": "SIM failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-14", "category": "CME", "description": "SIM busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-15", "category": "CME", "description": "SIM wrong", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-16", "category": "CME", "description": "incorrect password", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-17", "category": "CME", "description": "SIM PIN2 required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-18", "category": "CME", "description": "SIM PUK2 required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-20", "category": "CME", "description": "memory full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-21", "category": "CME", "description": "invalid index", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-22", "category": "CME", "description": "not found", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-23", "category": "CME", "description": "memory failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-24", "category": "CME", "description": "text string too long", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-25", "category": "CME", "description": "invalid characters in text string", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-26", "category": "CME", "description": "dial string too long", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-27", "category": "CME", "description": "invalid characters in dial string", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-30", "category": "CME", "description": "no network service", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-31", "category": "CME", "description": "network timeout", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-32", "category": "CME", "description": "network not allowed - emergency call only", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-40", "category": "CME", "description": "network personalisation PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-41", "category": "CME", "description": "network personalisation PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-42", "category": "CME", "description": "network subset personalisation PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-43", "category": "CME", "description": "network subset personalisation PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-44", "category": "CME", "description": "service provider personalisation PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-45", "category": "CME", "description": "service provider personalisation PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-46", "category": "CME", "description": "corporate personalisation PIN required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-47", "category": "CME", "description": "corporate personalisation PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-99", "category": "CME", "description": "resource limitation", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-100", "category": "CME", "description": "unknown", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-103", "category": "CME", "description": "Illegal MS", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-106", "category": "CME", "description": "Illegal ME", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-107", "category": "CME", "description": "GPRS services not allowed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-111", "category": "CME", "description": "PLMN not allowed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-112", "category": "CME", "description": "Location area not allowed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-113", "category": "CME", "description": "Roaming not allowed in this location area", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-132", "category": "CME", "description": "service option not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-133", "category": "CME", "description": "requested service option not subscribed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-134", "category": "CME", "description": "service option temporarily out of order", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-148", "category": "CME", "description": "unspecified GPRS error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-149", "category": "CME", "description": "PDP authentication failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-150", "category": "CME", "description": "invalid mobile class", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-160", "category": "CME", "description": "DNS resolve failed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-161", "category": "CME", "description": "Socket open failed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-171", "category": "CME", "description": "MMS task is busy now", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-172", "category": "CME", "description": "The mms data is oversize", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-173", "category": "CME", "description": "The operation is overtime", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-174", "category": "CME", "description": "There is no mms receiver", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-175", "category": "CME", "description": "The storage for address is full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-176", "category": "CME", "description": "Not find the address", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-177", "category": "CME", "description": "The connection to network is failed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-178", "category": "CME", "description": "Failed to read push message", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-179", "category": "CME", "description": "This is not a push message", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-180", "category": "CME", "description": "gprs is not attached", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-181", "category": "CME", "description": "tcpip stack is busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-182", "category": "CME", "description": "The mms storage is full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-183", "category": "CME", "description": "The box is empty", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-184", "category": "CME", "description": "failed to save mms", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-185", "category": "CME", "description": "It is in edit mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-186", "category": "CME", "description": "It is not in edit mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-187", "category": "CME", "description": "No content in the buffer", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-188", "category": "CME", "description": "Not find the file", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-189", "category": "CME", "description": "Failed to receive mms", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-190", "category": "CME", "description": "Failed to read mms", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-191", "category": "CME", "description": "Not M-Notification.ind", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-192", "category": "CME", "description": "The mms inclosure is full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-193", "category": "CME", "description": "Unknown", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-753", "category": "CME", "description": "missing required cmd parameter", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-754", "category": "CME", "description": "invalid SIM command", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-755", "category": "CME", "description": "invalid File Id", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-756", "category": "CME", "description": "missing required P1/2/3 parameter", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-757", "category": "CME", "description": "invalid P1/2/3 parameter", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-758", "category": "CME", "description": "missing required command data", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-759", "category": "CME", "description": "invalid characters in command data", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-765", "category": "CME", "description": "Invalid input value", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-766", "category": "CME", "description": "Unsupported mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-767", "category": "CME", "description": "Operation failed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-768", "category": "CME", "description": "Mux already running", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-769", "category": "CME", "description": "Unable to get control", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-770", "category": "CME", "description": "SIM network reject", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-771", "category": "CME", "description": "Call setup in progress", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-772", "category": "CME", "description": "SIM powered down", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-773", "category": "CME", "description": "SIM file not present", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-791", "category": "CME", "description": "Param count not enough", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-792", "category": "CME", "description": "Param count beyond", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-793", "category": "CME", "description": "Param value range beyond", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-794", "category": "CME", "description": "Param type not match", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-795", "category": "CME", "description": "Param format invalid", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-796", "category": "CME", "description": "Get a null param", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-797", "category": "CME", "description": "CFUN state is 0 or 4", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-810", "category": "CME", "description": "No Error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-811", "category": "CME", "description": "Unrecognized Command", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-812", "category": "CME", "description": "Return Value Error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-813", "category": "CME", "description": "Syntax Error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-814", "category": "CME", "description": "Unspecified Error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-815", "category": "CME", "description": "Data Transfer Already", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-816", "category": "CME", "description": "Action Already", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-817", "category": "CME", "description": "Not At Cmd", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-818", "category": "CME", "description": "Multi Cmd too long", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-819", "category": "CME", "description": "Abort Cops", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-820", "category": "CME", "description": "No Call Disc", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-821", "category": "CME", "description": "BT SAP Undefined", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-822", "category": "CME", "description": "BT SAP Not Accessible", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-823", "category": "CME", "description": "BT SAP Card Removed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CME-824", "category": "CME", "description": "AT Not Allowed By Customer", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01"]}
+{"code": "CMS-1", "category": "CMS", "description": "Unassigned(unallocated) number", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-3", "category": "CMS", "description": "No route to destination", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-6", "category": "CMS", "description": "Channel unacceptable", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-8", "category": "CMS", "description": "Operator determined barring", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-10", "category": "CMS", "description": "Call barred", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-11", "category": "CMS", "description": "Reserved", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-16", "category": "CMS", "description": "Normal call clearing", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-17", "category": "CMS", "description": "User busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-18", "category": "CMS", "description": "No user responding", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-19", "category": "CMS", "description": "User alerting, no answer", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-21", "category": "CMS", "description": "Short message transfer rejected", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-22", "category": "CMS", "description": "Number changed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-25", "category": "CMS", "description": "Pre-emption", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-26", "category": "CMS", "description": "Non-selected user clearing", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-27", "category": "CMS", "description": "Destination out of service", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-28", "category": "CMS", "description": "Invalid number format (incomplete number)", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-29", "category": "CMS", "description": "Facility rejected", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-30", "category": "CMS", "description": "Response to STATUS ENQUIRY", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-32", "category": "CMS", "description": "Normal, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-34", "category": "CMS", "description": "No circuit/channel available", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-38", "category": "CMS", "description": "Network out of order", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-41", "category": "CMS", "description": "Temporary failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-42", "category": "CMS", "description": "Switching equipment Congestion", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-43", "category": "CMS", "description": "Access information discarded", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-44", "category": "CMS", "description": "Requested circuit/channel not available", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-47", "category": "CMS", "description": "Resources unavailable, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-49", "category": "CMS", "description": "Quality of service unavailable", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-50", "category": "CMS", "description": "Requested facility not subscribed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-55", "category": "CMS", "description": "Requested facility not subscribed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-57", "category": "CMS", "description": "Bearer capability not authorized", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-58", "category": "CMS", "description": "Bearer capability not presently available", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-63", "category": "CMS", "description": "Service or option not available, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-65", "category": "CMS", "description": "Bearer service not implemented", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-68", "category": "CMS", "description": "ACM equal or greater than ACM maximum", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-69", "category": "CMS", "description": "Requested facility not implemented", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-70", "category": "CMS", "description": "Only restricted digital information bearer capability is available", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-79", "category": "CMS", "description": "Service or option not implemented, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-81", "category": "CMS", "description": "Invalid transaction identifier value", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-87", "category": "CMS", "description": "User not member of CUG", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-88", "category": "CMS", "description": "Incompatible destination", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-91", "category": "CMS", "description": "Invalid transit network selection", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-95", "category": "CMS", "description": "Semantically incorrect message", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-96", "category": "CMS", "description": "Invalid mandatory information", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-97", "category": "CMS", "description": "Message type non-existent or not implemented", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-98", "category": "CMS", "description": "Message type not compatible with protocol state", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-99", "category": "CMS", "description": "Information element non-existent or not implemented", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-100", "category": "CMS", "description": "Conditional information element error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-101", "category": "CMS", "description": "Message not compatible with protocol", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-102", "category": "CMS", "description": "Recovery on timer expiry", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-111", "category": "CMS", "description": "Protocol error, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-127", "category": "CMS", "description": "Interworking, unspecified", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-128", "category": "CMS", "description": "Telematic interworking not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-129", "category": "CMS", "description": "Short message Type 0 not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-130", "category": "CMS", "description": "Cannot replace short message", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-143", "category": "CMS", "description": "Unspecified TP-PID error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-144", "category": "CMS", "description": "Data coding scheme (alphabet) not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-145", "category": "CMS", "description": "Message class not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-159", "category": "CMS", "description": "Unspecified TP-DCS error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-160", "category": "CMS", "description": "Command cannot be acted", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-161", "category": "CMS", "description": "Command unsupported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-175", "category": "CMS", "description": "Unspecified TP-Command error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-176", "category": "CMS", "description": "TPDU not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-192", "category": "CMS", "description": "SC busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-193", "category": "CMS", "description": "No SC subscription", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-194", "category": "CMS", "description": "SC system failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-195", "category": "CMS", "description": "Invalid SME address", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-196", "category": "CMS", "description": "Destination SME barred", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-197", "category": "CMS", "description": "SM Rejected-Duplicate SM", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-198", "category": "CMS", "description": "TP-VPF not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-199", "category": "CMS", "description": "TP-VP not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-208", "category": "CMS", "description": "SIM SMS storage full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-209", "category": "CMS", "description": "No SMS storage capability in SIM", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-210", "category": "CMS", "description": "Error in MS", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-211", "category": "CMS", "description": "Memory Capacity Exceeded", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-212", "category": "CMS", "description": "SIM Application Toolkit Busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-213", "category": "CMS", "description": "SIM data download error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-224", "category": "CMS", "description": "CP retry exceed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-225", "category": "CMS", "description": "RP trim timeout", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-226", "category": "CMS", "description": "SMS connection broken", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-255", "category": "CMS", "description": "Unspecified error cause", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-300", "category": "CMS", "description": "ME failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-301", "category": "CMS", "description": "SMS reserved", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-302", "category": "CMS", "description": "operation not allowed", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-303", "category": "CMS", "description": "operation not supported", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-304", "category": "CMS", "description": "invalid PDU mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-305", "category": "CMS", "description": "invalid text mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-310", "category": "CMS", "description": "SIM not inserted", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-311", "category": "CMS", "description": "SIM pin necessary", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-312", "category": "CMS", "description": "PH SIM pin necessary", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-313", "category": "CMS", "description": "SIM failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-314", "category": "CMS", "description": "SIM busy", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-315", "category": "CMS", "description": "SIM wrong", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-316", "category": "CMS", "description": "SIM PUK required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-317", "category": "CMS", "description": "SIM PIN2 required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-318", "category": "CMS", "description": "SIM PUK2 required", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-320", "category": "CMS", "description": "memory failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-321", "category": "CMS", "description": "invalid memory index", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-322", "category": "CMS", "description": "memory full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-323", "category": "CMS", "description": "invalid input parameter", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-324", "category": "CMS", "description": "invalid input format", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-325", "category": "CMS", "description": "invalid input value", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-330", "category": "CMS", "description": "SMSC address unknown", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-331", "category": "CMS", "description": "no network", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-332", "category": "CMS", "description": "network timeout", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-340", "category": "CMS", "description": "no cnma ack", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-500", "category": "CMS", "description": "Unknown", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-512", "category": "CMS", "description": "SMS no error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-513", "category": "CMS", "description": "Message length exceeds maximum length", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-514", "category": "CMS", "description": "Invalid request parameters", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-515", "category": "CMS", "description": "ME storage failure", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-516", "category": "CMS", "description": "Invalid bearer service", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-517", "category": "CMS", "description": "Invalid service mode", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-518", "category": "CMS", "description": "Invalid storage type", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-519", "category": "CMS", "description": "Invalid message format", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-520", "category": "CMS", "description": "Too many MO concatenated messages", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-521", "category": "CMS", "description": "SMSAL not ready", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-522", "category": "CMS", "description": "SMSAL no more service", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-523", "category": "CMS", "description": "Not support TP-Status-Report & TP-Command in storage", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-524", "category": "CMS", "description": "Reserved MTI", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-525", "category": "CMS", "description": "No free entity in RL layer", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-526", "category": "CMS", "description": "The port number is already registerred", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-527", "category": "CMS", "description": "There is no free entity for port number", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-528", "category": "CMS", "description": "More Message to Send state error", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-529", "category": "CMS", "description": "MO SMS is not allow", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-530", "category": "CMS", "description": "GPRS is suspended", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-531", "category": "CMS", "description": "ME storage full", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CMS-532", "category": "CMS", "description": "Doing SIM refresh", "source": "SIM800 Series_AT Command Manual_V1.01.pdf", "applicable_versions": ["1.01", "1.10"]}
+{"code": "CME-600", "category": "CME", "description": "No Error", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-601", "category": "CME", "description": "Unrecognized Command", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-602", "category": "CME", "description": "Return Value Error", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-603", "category": "CME", "description": "Syntax Error", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-604", "category": "CME", "description": "Unspecified Error", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-605", "category": "CME", "description": "Data Transfer Already", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-606", "category": "CME", "description": "Action Already", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-607", "category": "CME", "description": "Not At Cmd", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-608", "category": "CME", "description": "Multi Cmd too long", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-609", "category": "CME", "description": "Abort Cops", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-610", "category": "CME", "description": "No Call Disc", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-611", "category": "CME", "description": "BT SAP Undefined", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-612", "category": "CME", "description": "BT SAP Not Accessible", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-613", "category": "CME", "description": "BT SAP Card Removed", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}
+{"code": "CME-614", "category": "CME", "description": "AT Not Allowed By Customer", "source": "SIM800 Series_AT Command Manual_V1.10.pdf", "applicable_versions": ["1.10"]}

@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "init_sequences",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "command": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "dependency_step": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expected_response": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "failure_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "related_state": {
+      "type": "string"
+    },
+    "retry_count": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "quote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "section": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "step_order": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeout_ms": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "command",
+    "confidence",
+    "conflicts",
+    "created_at",
+    "dependency_step",
+    "expected_response",
+    "failure_action",
+    "id",
+    "notes",
+    "related_state",
+    "retry_count",
+    "source",
+    "source_type",
+    "status",
+    "step_order",
+    "tags",
+    "timeout_ms",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

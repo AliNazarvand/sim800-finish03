@@ -1,0 +1,5 @@
+python=Python 3.12.3
+pytest=pytest 9.1.1
+ruff=ruff 0.17.1
+mypy=mypy 2.4.0 (compiled: yes)
+g++=g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0

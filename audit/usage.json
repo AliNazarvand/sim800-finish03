@@ -1,0 +1,74 @@
+{
+  "run_id": "sim800-full-completion-2026-10-18",
+  "started_at": "2026-10-18T18:40:48Z",
+  "status": "completed_post_lint_mypy_remediation",
+  "baseline_sha": "440e3e0d6a57c9b529e8bb1aef55df451edc0389",
+  "working_branch": "ai/full-completion",
+  "phases": {
+    "phase_0": {
+      "api_calls": 0
+    },
+    "phase_1": {
+      "api_calls": 0
+    },
+    "phase_2": {
+      "api_calls": 0
+    },
+    "phase_3": {
+      "api_calls": 0
+    }
+  },
+  "totals": {
+    "api_calls": 0,
+    "tool_calls": 0,
+    "cache_hits": 0,
+    "cache_misses": 0
+  },
+  "budget": {
+    "input_max": 3000000,
+    "output_max": 600000,
+    "total_max": 3600000,
+    "api_calls_max": 800,
+    "commits_max": 150,
+    "wall_time_max_hours": 14
+  },
+  "remaining": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "total_tokens": null,
+    "api_calls": 800
+  },
+  "ratios": {
+    "api_used": 0.0
+  },
+  "events": [],
+  "validation": {
+    "schemas": 21,
+    "jsonl_records": 2522,
+    "pytest_passed": 53,
+    "coverage_percent": 97.96,
+    "capability_tests_passed": 19
+  },
+  "archive_sha256": {
+    "source": "2af593570a92c38f440ec78e2d071fb5d1681861691fda96d104f80f1eac13d5",
+    "changes_bundle": "4016c40f233441124447db50a0dc7b648b195b04378c5bc5307adc1a0ef65852"
+  },
+  "last_commit": "194bf21d83b5bfeca6d609ec39f40a0d7c944de0",
+  "quality": {
+    "ruff": {
+      "exit_code": 0,
+      "findings": 0
+    },
+    "mypy": {
+      "exit_code": 0,
+      "files_checked": 22,
+      "findings": 0
+    },
+    "before": {
+      "ruff_findings": 142,
+      "mypy_findings": 83
+    }
+  },
+  "code_commit": "51cff8280bfed4201d73e0582f2146bc892a6e5a",
+  "state_sync_commit": "aa0204de0d9d06964f9dddfa3b9ff188fd57a085"
+}

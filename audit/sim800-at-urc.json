@@ -1,0 +1,190 @@
+{
+  "repository": "sim800-at-urc",
+  "commit_sha": "e3c8897d841c171ede7caf2b66cd6ff80a8a434a",
+  "license_files": [
+    "LICENSE"
+  ],
+  "generated_at": "2026-10-18T18:41:05+00:00",
+  "source": "network",
+  "resolved_path": "<parent-of-repo>/siblings/sim800-at-urc",
+  "file_count": 34,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "8c7287269f5638d6f5b0787f5bbd44ca7c4419a0ab71a3d4f5e27d6356cdfdbc",
+      "type": "file"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "e105f4dbcd733c99226e4e8293842e164ec9cf009315d6edb02d86d365c9c297",
+      "type": "file"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "65fe53ad31a5ea355bac038468f1ce5e9ae0ccac2317d1b8788c7fab2a5ca15d",
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5368ead1268d0aababb8039661f3670611455cab3d25ef1659401cc901c54a32",
+      "type": "file"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "f8bc14b22af4f413c882656693fcd5513694ceb112bdb0af04f19aeca140a69a",
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c60bf44fcf76747cbd44c2896520e770b54afbaa5c3ee97b9a33ec98dcb29543",
+      "type": "file"
+    },
+    {
+      "path": "sim800_at.pc.in",
+      "sha256": "66cbc9bab69bb18e795bbced4a38f177c13098367b3acbe8a228c070bc7eac41",
+      "type": "file"
+    },
+    {
+      "path": "data/MANUALS",
+      "sha256": "863931118a2a8299d8f51c6b2190fc9ac169064392b0d8475f1841285d94f218",
+      "type": "file"
+    },
+    {
+      "path": "data/VERSION",
+      "sha256": "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066",
+      "type": "file"
+    },
+    {
+      "path": "data/at_commands.yaml",
+      "sha256": "ecb2aefc8c39ac3b3d98c8275cb189935a6e2dbc851c1dc22af1ec2602f964e2",
+      "type": "file"
+    },
+    {
+      "path": "data/categories.yaml",
+      "sha256": "fe7198f51727c0cc950f6724b870f63d443fdd70889697a533461dcf530ab86a",
+      "type": "file"
+    },
+    {
+      "path": "data/modules.yaml",
+      "sha256": "c9a486d29a389f220db984e77a7f80e72c40bef9b7638550ee5dc3ab9513cb1d",
+      "type": "file"
+    },
+    {
+      "path": "data/urcs.yaml",
+      "sha256": "8010a477818120cad2ada506755cfdf8e360f855346bba65122b7830a66478d6",
+      "type": "file"
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "240c91c4bea85a820e9654c71eab3d3e421d5ddfeed571adf601df70908ae25c",
+      "type": "file"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "455238e28398ebd90901d35e5679ae446af054b458c43853e0c178474451fbcc",
+      "type": "file"
+    },
+    {
+      "path": "docs/AUDIT_COMMANDS.md",
+      "sha256": "2079673a7492ca71b13a7b447df51a5a2aaba9c61aa89e47afa2ea19f6148dd9",
+      "type": "file"
+    },
+    {
+      "path": "docs/AUDIT_MODULES.md",
+      "sha256": "4f76c1f1697721a5c0f9054a17bb77d9a824f4a7429992040cf6ed42c533c613",
+      "type": "file"
+    },
+    {
+      "path": "docs/AUDIT_URCS.md",
+      "sha256": "9d99b94d73e3e6236775af9a3b85ada59ba2b2026bf0635496ba7403dbe081df",
+      "type": "file"
+    },
+    {
+      "path": "docs/DATABASE.md",
+      "sha256": "a5cb3750b8a6bb0f0e838114de05b7c1f95f50d9fd8cb5f244c5e088ca86c8b4",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/at_api.hpp",
+      "sha256": "3a0b5631d1a1aa25a0c77567ff35e80f1a3debcc08db2b1db966b65f3461e675",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/at_commands.hpp",
+      "sha256": "1841d5f973b7a9d5d9e7f7123b7b3f56b53eca22c6dc51661c27d3829c21d24c",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/at_types.hpp",
+      "sha256": "b9f5615ff9a8e2a417df10b0b33aba05e57730ff2e889494a920689749d90d05",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/sim800_at.hpp",
+      "sha256": "0678359ca523912a9fad7191e60ffac797270b3db4628e588fbdbe6eb3cd3459",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/urcs.hpp",
+      "sha256": "d92a9202e4bcda0a5b63c73bc3477b7da2edd769ab99603b550bb67600607548",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_at/version.hpp",
+      "sha256": "a1eaa2d61603fdfc5f7748574d3968a5dca830b5f5cb14798f8b3ab12b1f5a51",
+      "type": "file"
+    },
+    {
+      "path": "schemas/at_commands.schema.json",
+      "sha256": "41658f62d50d55968c0444dee3043a537043bf0314b83087e386fc87db0642b2",
+      "type": "file"
+    },
+    {
+      "path": "schemas/categories.schema.json",
+      "sha256": "00e23b205f81a78c64e61932b6048773715c9ad8339aafb809506a812e43a094",
+      "type": "file"
+    },
+    {
+      "path": "schemas/modules.schema.json",
+      "sha256": "9f044abbc0451cc9108d96ec93e8a5725537f41a390baaea37896519da888e9f",
+      "type": "file"
+    },
+    {
+      "path": "schemas/urcs.schema.json",
+      "sha256": "256d94164c421375df01cd92624d09b7df81e1cf0a18820e2805d092ef3a61c1",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_at_db.cpp",
+      "sha256": "579f7363008cd07ad84948b6669ee06b4c1773010d7dd15c925d5dfff89bdf36",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_generate.py",
+      "sha256": "85c948cff16596d29cabadaeadea8879997e83d7f517d192df1193d3c1899ba3",
+      "type": "file"
+    },
+    {
+      "path": "tools/audit_pdfs.py",
+      "sha256": "684ffde914ba6aa8d28564f254c7ea267a18bad035262aee586ec17d715415c7",
+      "type": "file"
+    },
+    {
+      "path": "tools/generate.py",
+      "sha256": "356688497532bd48fa9f30521ca1584b6446849a41c48613884b8071eda7ae51",
+      "type": "file"
+    },
+    {
+      "path": "tools/validate.py",
+      "sha256": "8e1b4a7828ecfb34fb0b7f0adb63da791f06387e2917163375dae7853d7efccb",
+      "type": "file"
+    }
+  ],
+  "push_protection": {
+    "original_push_url": "https://github.com/AliNazarvand/sim800-at-urc.git",
+    "push_url_after": "no_push",
+    "dry_run_exit_code": 128,
+    "current_dry_run_exit_code": 128,
+    "status_unchanged": true
+  }
+}

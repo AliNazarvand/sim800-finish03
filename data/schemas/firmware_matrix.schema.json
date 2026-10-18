@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "firmware_matrix",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "base_version": {
+      "type": [
+        "null"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "coverage_estimate": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {}
+    },
+    "firmware_version": {
+      "type": [
+        "null"
+      ]
+    },
+    "fixed_issues": {
+      "type": "array",
+      "items": {}
+    },
+    "id": {
+      "type": "string"
+    },
+    "known_issues": {
+      "type": "array",
+      "items": {}
+    },
+    "notes": {
+      "type": "string"
+    },
+    "related_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "release_date": {
+      "type": [
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "supported_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "tags": {
+      "type": "array",
+      "items": {}
+    },
+    "unsupported_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "base_version",
+    "category",
+    "confidence",
+    "conflicts",
+    "coverage_estimate",
+    "created_at",
+    "features",
+    "firmware_version",
+    "fixed_issues",
+    "id",
+    "known_issues",
+    "notes",
+    "related_commands",
+    "release_date",
+    "source",
+    "source_type",
+    "status",
+    "supported_commands",
+    "tags",
+    "unsupported_commands",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

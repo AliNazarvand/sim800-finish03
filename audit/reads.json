@@ -1,0 +1,16 @@
+[
+  {
+    "path": "<upload>/prompt10.txt",
+    "type": "partial",
+    "purpose": "Read execution requirements and stop conditions",
+    "sha256": "not-computed",
+    "notes": "Read in bounded chunks; file has 607 lines."
+  },
+  {
+    "path": "<repo>/Git metadata",
+    "type": "command-output",
+    "purpose": "Baseline status, HEAD, branch, identity, remotes",
+    "sha256": null,
+    "notes": "Working tree clean; identity missing."
+  }
+]

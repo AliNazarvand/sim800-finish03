@@ -1,0 +1,21 @@
+{
+  "gate": "CI Syntax",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "validation.yml",
+      "status": "PASS",
+      "detail": "valid YAML with jobs"
+    },
+    {
+      "name": "windows-powershell.yml",
+      "status": "PASS",
+      "detail": "valid YAML with jobs"
+    },
+    {
+      "name": "pre-commit",
+      "status": "PASS",
+      "detail": "valid YAML with repositories"
+    }
+  ]
+}

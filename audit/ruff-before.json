@@ -1,0 +1,4028 @@
+[
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 63,
+      "row": 19
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 63,
+            "row": 19
+          },
+          "location": {
+            "column": 59,
+            "row": 19
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 59,
+      "row": 19
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 68,
+      "row": 19
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 68,
+            "row": 19
+          },
+          "location": {
+            "column": 64,
+            "row": 19
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 64,
+      "row": 19
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 19,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 15,
+      "row": 20
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 15,
+            "row": 20
+          },
+          "location": {
+            "column": 11,
+            "row": 20
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 11,
+      "row": 20
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 20,
+      "row": 20
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 20,
+            "row": 20
+          },
+          "location": {
+            "column": 16,
+            "row": 20
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 16,
+      "row": 20
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 20,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 105,
+      "row": 37
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 105,
+            "row": 37
+          },
+          "location": {
+            "column": 101,
+            "row": 37
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 101,
+      "row": 37
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 110,
+      "row": 37
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 110,
+            "row": 37
+          },
+          "location": {
+            "column": 106,
+            "row": 37
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 106,
+      "row": 37
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 122,
+      "row": 37
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 37
+    },
+    "message": "Line too long (121 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 14,
+      "row": 39
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 14,
+            "row": 39
+          },
+          "location": {
+            "column": 10,
+            "row": 39
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 10,
+      "row": 39
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 39,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 19,
+      "row": 39
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 19,
+            "row": 39
+          },
+          "location": {
+            "column": 15,
+            "row": 39
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 15,
+      "row": 39
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 39,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 32,
+      "row": 20
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from __future__ import annotations\n\nimport csv\nimport io\nimport json\nimport sys\nfrom pathlib import Path\nfrom typing import Any, List\n\nimport yaml\n\nfrom . import __version__\nfrom .audit import audit, conflicts_report\nfrom .compare import compare\nfrom .cpp import render_from_root, write_cpp_header\nfrom .generate import write_capabilities\nfrom .loader import load_all_models\nfrom .query import find, get_path, is_excluded, list_models, resolve_model\nfrom .validator import validate\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 22
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 29,
+      "row": 9
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 9
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 9,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 15,
+      "row": 126
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 15,
+            "row": 126
+          },
+          "location": {
+            "column": 11,
+            "row": 126
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 11,
+      "row": 126
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 126,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 37,
+      "row": 214
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 36,
+      "row": 214
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 214,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 216
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 104,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 103,
+      "row": 216
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 135,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 216
+    },
+    "message": "Line too long (134 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 59,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 58,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 218
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 130,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 129,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 59,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 58,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 220
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 130,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 129,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 32,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 58,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 57,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 83,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 82,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 238,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 222
+    },
+    "message": "Line too long (237 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 137,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 136,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 208,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 207,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 36,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 35,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 63,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 62,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 90,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 89,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 195,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 224
+    },
+    "message": "Line too long (194 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 161,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 160,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 35,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 34,
+      "row": 226
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 120,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 119,
+      "row": 226
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 153,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 226
+    },
+    "message": "Line too long (152 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 37,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 36,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 114,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 113,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 189,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 228
+    },
+    "message": "Line too long (188 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 154,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 153,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 34,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 33,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 76,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 75,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 179,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 230
+    },
+    "message": "Line too long (178 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 147,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 146,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 38,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 37,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 80,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 79,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 246,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 232
+    },
+    "message": "Line too long (245 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 139,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 138,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 210,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 209,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 20,
+      "row": 237
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 20,
+            "row": 237
+          },
+          "location": {
+            "column": 16,
+            "row": 237
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 16,
+      "row": 237
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 237,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 31,
+      "row": 7
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 8
+          },
+          "location": {
+            "column": 1,
+            "row": 7
+          }
+        }
+      ],
+      "message": "Remove unused import: `.loader.load_model`"
+    },
+    "location": {
+      "column": 21,
+      "row": 7
+    },
+    "message": "`.loader.load_model` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 58,
+      "row": 21
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 58,
+            "row": 21
+          },
+          "location": {
+            "column": 54,
+            "row": 21
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 54,
+      "row": 21
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 63,
+      "row": 21
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 63,
+            "row": 21
+          },
+          "location": {
+            "column": 59,
+            "row": 21
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 59,
+      "row": 21
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 14,
+      "row": 32
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 14,
+            "row": 32
+          },
+          "location": {
+            "column": 10,
+            "row": 32
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 10,
+      "row": 32
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 32,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 19,
+      "row": 32
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 19,
+            "row": 32
+          },
+          "location": {
+            "column": 15,
+            "row": 32
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 15,
+      "row": 32
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 32,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 160,
+      "row": 37
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 37
+    },
+    "message": "Line too long (159 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 40
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 40
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 40,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 48,
+      "row": 7
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from __future__ import annotations\n\nfrom pathlib import Path\nfrom typing import Any, Dict, List\n\nfrom .generate import generate as _generate_doc\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 10
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 36,
+      "row": 67
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 36,
+            "row": 67
+          },
+          "location": {
+            "column": 32,
+            "row": 67
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 32,
+      "row": 67
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 67,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 16,
+      "row": 102
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 16,
+            "row": 102
+          },
+          "location": {
+            "column": 12,
+            "row": 102
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 12,
+      "row": 102
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 102,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 30,
+      "row": 118
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 30,
+            "row": 118
+          },
+          "location": {
+            "column": 26,
+            "row": 118
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 26,
+      "row": 118
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 118,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 16,
+      "row": 140
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 16,
+            "row": 140
+          },
+          "location": {
+            "column": 12,
+            "row": 140
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 12,
+      "row": 140
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 140,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 31,
+      "row": 260
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 31,
+            "row": 260
+          },
+          "location": {
+            "column": 27,
+            "row": 260
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 27,
+      "row": 260
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 260,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 36,
+      "row": 260
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 36,
+            "row": 260
+          },
+          "location": {
+            "column": 32,
+            "row": 260
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 32,
+      "row": 260
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 260,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 32,
+      "row": 16
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from __future__ import annotations\n\nfrom pathlib import Path\nfrom typing import Any, Dict, List\n\nimport yaml\n\nfrom .loader import (\n    compute_content_hash,\n    compute_scope_hash,\n    load_all_models,\n    load_scope,\n    load_sources,\n)\nfrom .validator import validate\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 19
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 35,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from typing import Any, Dict",
+          "end_location": {
+            "column": 35,
+            "row": 5
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Remove unused import: `typing.List`"
+    },
+    "location": {
+      "column": 31,
+      "row": 5
+    },
+    "message": "`typing.List` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 36,
+      "row": 72
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 36,
+            "row": 72
+          },
+          "location": {
+            "column": 32,
+            "row": 72
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 32,
+      "row": 72
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 72,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 55,
+      "row": 72
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 55,
+            "row": 72
+          },
+          "location": {
+            "column": 51,
+            "row": 72
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 51,
+      "row": 72
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 72,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 33,
+      "row": 80
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 33,
+            "row": 80
+          },
+          "location": {
+            "column": 29,
+            "row": 80
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 29,
+      "row": 80
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 80,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 12,
+      "row": 9
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from __future__ import annotations\n\nimport hashlib\nimport json\nfrom pathlib import Path\nfrom typing import Any, Dict, List\n\nimport yaml\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 12
+          },
+          "location": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 2
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 2,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 7
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 7
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 7
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 7
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 35,
+      "row": 17
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 35,
+            "row": 17
+          },
+          "location": {
+            "column": 31,
+            "row": 17
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 31,
+      "row": 17
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 17,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 37,
+      "row": 21
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 37,
+            "row": 21
+          },
+          "location": {
+            "column": 33,
+            "row": 21
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 33,
+      "row": 21
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 42,
+      "row": 25
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 42,
+            "row": 25
+          },
+          "location": {
+            "column": 38,
+            "row": 25
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 38,
+      "row": 25
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 25,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 47,
+      "row": 29
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 47,
+            "row": 29
+          },
+          "location": {
+            "column": 43,
+            "row": 29
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 43,
+      "row": 29
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 29,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 40,
+      "row": 34
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 40,
+            "row": 34
+          },
+          "location": {
+            "column": 36,
+            "row": 34
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 36,
+      "row": 34
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 45,
+      "row": 34
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 45,
+            "row": 34
+          },
+          "location": {
+            "column": 41,
+            "row": 34
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 41,
+      "row": 34
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 38,
+      "row": 47
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 38,
+            "row": 47
+          },
+          "location": {
+            "column": 34,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 34,
+      "row": 47
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 47,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 43,
+      "row": 47
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 43,
+            "row": 47
+          },
+          "location": {
+            "column": 39,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 39,
+      "row": 47
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 47,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 69,
+      "row": 47
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 69,
+            "row": 47
+          },
+          "location": {
+            "column": 65,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 65,
+      "row": 47
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 47,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 74,
+      "row": 47
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 74,
+            "row": 47
+          },
+          "location": {
+            "column": 70,
+            "row": 47
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 70,
+      "row": 47
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 47,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 35,
+      "row": 52
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 35,
+            "row": 52
+          },
+          "location": {
+            "column": 31,
+            "row": 52
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 31,
+      "row": 52
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 52,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 45,
+      "row": 6
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 6
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 45,
+      "row": 6
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 6
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 36,
+      "row": 15
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 36,
+            "row": 15
+          },
+          "location": {
+            "column": 32,
+            "row": 15
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 32,
+      "row": 15
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 15,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 41,
+      "row": 15
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 41,
+            "row": 15
+          },
+          "location": {
+            "column": 37,
+            "row": 15
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 37,
+      "row": 15
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 15,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 41,
+      "row": 24
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 41,
+            "row": 24
+          },
+          "location": {
+            "column": 37,
+            "row": 24
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 37,
+      "row": 24
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 24,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 46,
+      "row": 24
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 46,
+            "row": 24
+          },
+          "location": {
+            "column": 42,
+            "row": 24
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 42,
+      "row": 24
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 24,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP045",
+    "end_location": {
+      "column": 69,
+      "row": 43
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "Dict[str, Any] | None",
+          "end_location": {
+            "column": 69,
+            "row": 43
+          },
+          "location": {
+            "column": 45,
+            "row": 43
+          }
+        }
+      ],
+      "message": "Convert to `X | None`"
+    },
+    "location": {
+      "column": 45,
+      "row": 43
+    },
+    "message": "Use `X | None` for type annotations",
+    "name": "non-pep604-annotation-optional",
+    "noqa_row": 43,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-annotation-optional"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 58,
+      "row": 43
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 58,
+            "row": 43
+          },
+          "location": {
+            "column": 54,
+            "row": 43
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 54,
+      "row": 43
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 43,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP045",
+    "end_location": {
+      "column": 67,
+      "row": 56
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "Dict[str, Any] | None",
+          "end_location": {
+            "column": 67,
+            "row": 56
+          },
+          "location": {
+            "column": 43,
+            "row": 56
+          }
+        }
+      ],
+      "message": "Convert to `X | None`"
+    },
+    "location": {
+      "column": 43,
+      "row": 56
+    },
+    "message": "Use `X | None` for type annotations",
+    "name": "non-pep604-annotation-optional",
+    "noqa_row": 56,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep604-annotation-optional"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 56,
+      "row": 56
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 56,
+            "row": 56
+          },
+          "location": {
+            "column": 52,
+            "row": 56
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 52,
+      "row": 56
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 56,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 23,
+      "row": 66
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 23,
+            "row": 66
+          },
+          "location": {
+            "column": 19,
+            "row": 66
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 19,
+      "row": 66
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 66,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 6
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 6
+    },
+    "message": "`typing.Dict` is deprecated, use `dict` instead",
+    "name": "deprecated-import",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP035",
+    "end_location": {
+      "column": 35,
+      "row": 6
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": null,
+    "location": {
+      "column": 1,
+      "row": 6
+    },
+    "message": "`typing.List` is deprecated, use `list` instead",
+    "name": "deprecated-import",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/deprecated-import"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 18,
+      "row": 21
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 18,
+            "row": 21
+          },
+          "location": {
+            "column": 14,
+            "row": 21
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 14,
+      "row": 21
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 28,
+      "row": 21
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 28,
+            "row": 21
+          },
+          "location": {
+            "column": 24,
+            "row": 21
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 24,
+      "row": 21
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 21,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 25,
+      "row": 34
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 25,
+            "row": 34
+          },
+          "location": {
+            "column": 21,
+            "row": 34
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 21,
+      "row": 34
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 35,
+      "row": 34
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 35,
+            "row": 34
+          },
+          "location": {
+            "column": 31,
+            "row": 34
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 31,
+      "row": 34
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 34,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 48,
+      "row": 42
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 48,
+            "row": 42
+          },
+          "location": {
+            "column": 44,
+            "row": 42
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 44,
+      "row": 42
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 42,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 33,
+      "row": 52
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 33,
+            "row": 52
+          },
+          "location": {
+            "column": 29,
+            "row": 52
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 29,
+      "row": 52
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 52,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 17,
+      "row": 54
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 17,
+            "row": 54
+          },
+          "location": {
+            "column": 13,
+            "row": 54
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 13,
+      "row": 54
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 54,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 23,
+      "row": 115
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 23,
+            "row": 115
+          },
+          "location": {
+            "column": 19,
+            "row": 115
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 19,
+      "row": 115
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 115,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 55,
+      "row": 171
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 55,
+            "row": 171
+          },
+          "location": {
+            "column": 51,
+            "row": 171
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 51,
+      "row": 171
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 171,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 86,
+      "row": 171
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 86,
+            "row": 171
+          },
+          "location": {
+            "column": 82,
+            "row": 171
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 82,
+      "row": 171
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 171,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 105,
+      "row": 171
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 105,
+            "row": 171
+          },
+          "location": {
+            "column": 101,
+            "row": 171
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 101,
+      "row": 171
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 171,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 15,
+      "row": 172
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 15,
+            "row": 172
+          },
+          "location": {
+            "column": 11,
+            "row": 172
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 11,
+      "row": 172
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 172,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 56,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 56,
+            "row": 226
+          },
+          "location": {
+            "column": 52,
+            "row": 226
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 52,
+      "row": 226
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 75,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 75,
+            "row": 226
+          },
+          "location": {
+            "column": 71,
+            "row": 226
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 71,
+      "row": 226
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 15,
+      "row": 227
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 15,
+            "row": 227
+          },
+          "location": {
+            "column": 11,
+            "row": 227
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 11,
+      "row": 227
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 227,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 152,
+      "row": 242
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 242
+    },
+    "message": "Line too long (151 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 242,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 43,
+      "row": 247
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "dict",
+          "end_location": {
+            "column": 43,
+            "row": 247
+          },
+          "location": {
+            "column": 39,
+            "row": 247
+          }
+        }
+      ],
+      "message": "Replace with `dict`"
+    },
+    "location": {
+      "column": 39,
+      "row": 247
+    },
+    "message": "Use `dict` instead of `Dict` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 247,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 62,
+      "row": 247
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 62,
+            "row": 247
+          },
+          "location": {
+            "column": 58,
+            "row": 247
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 58,
+      "row": 247
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 247,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "UP006",
+    "end_location": {
+      "column": 15,
+      "row": 248
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "list",
+          "end_location": {
+            "column": 15,
+            "row": 248
+          },
+          "location": {
+            "column": 11,
+            "row": 248
+          }
+        }
+      ],
+      "message": "Replace with `list`"
+    },
+    "location": {
+      "column": 11,
+      "row": 248
+    },
+    "message": "Use `list` instead of `List` for type annotation",
+    "name": "non-pep585-annotation",
+    "noqa_row": 248,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/non-pep585-annotation"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 10,
+      "row": 15
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/generators/cpp_header/generate_at_urc.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "",
+          "end_location": {
+            "column": 1,
+            "row": 16
+          },
+          "location": {
+            "column": 1,
+            "row": 15
+          }
+        }
+      ],
+      "message": "Remove unused import: `io`"
+    },
+    "location": {
+      "column": 8,
+      "row": 15
+    },
+    "message": "`io` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 15,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 123,
+      "row": 207
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/generators/cpp_header/generate_at_urc.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 207
+    },
+    "message": "Line too long (122 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 207,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 55,
+      "row": 11
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/sim800_tools/cli.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from __future__ import annotations\n\nimport argparse\nimport json\nfrom pathlib import Path\n\nfrom capabilities.cli import main as capabilities_main\nfrom sim800_diffing import write_diff\nfrom sim800_validation import validate_directory\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 14
+          },
+          "location": {
+            "column": 1,
+            "row": 3
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 3
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 3,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_audit.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_compare.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 79,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.cpp import render_from_root, render_header, write_cpp_header\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 8
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 43,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_cpp.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.cpp import render_from_root, write_cpp_header",
+          "end_location": {
+            "column": 79,
+            "row": 5
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Remove unused import: `capabilities.cpp.render_header`"
+    },
+    "location": {
+      "column": 30,
+      "row": 5
+    },
+    "message": "`capabilities.cpp.render_header` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_data_integrity.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 4
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_generate.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 2,
+      "row": 8
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.loader import (\n    canonical_json,\n    compute_content_hash,\n    compute_scope_hash,\n    load_all_models,\n    load_model,\n    load_scope,\n    load_sources,\n)\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 11
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 41,
+      "row": 6
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.loader import (\n    load_scope, load_sources, load_all_models,\n    compute_content_hash, canonical_json,\n)",
+          "end_location": {
+            "column": 2,
+            "row": 8
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Remove unused import"
+    },
+    "location": {
+      "column": 31,
+      "row": 6
+    },
+    "message": "`capabilities.loader.load_model` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 6,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "F401",
+    "end_location": {
+      "column": 45,
+      "row": 7
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_loader.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.loader import (\n    load_scope, load_sources, load_all_models,\n    compute_content_hash, canonical_json,\n)",
+          "end_location": {
+            "column": 2,
+            "row": 8
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Remove unused import"
+    },
+    "location": {
+      "column": 27,
+      "row": 7
+    },
+    "message": "`capabilities.loader.compute_scope_hash` imported but unused",
+    "name": "unused-import",
+    "noqa_row": 7,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unused-import"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 74,
+      "row": 5
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_query.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "from capabilities.query import find, get_path, list_models, resolve_model\n\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 8
+          },
+          "location": {
+            "column": 1,
+            "row": 5
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 5
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 5,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  },
+  {
+    "cell": null,
+    "code": "I001",
+    "end_location": {
+      "column": 11,
+      "row": 2
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/tests/capabilities/test_validator.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "import sys\nfrom pathlib import Path\n\n",
+          "end_location": {
+            "column": 1,
+            "row": 3
+          },
+          "location": {
+            "column": 1,
+            "row": 1
+          }
+        }
+      ],
+      "message": "Organize imports"
+    },
+    "location": {
+      "column": 1,
+      "row": 1
+    },
+    "message": "Import block is un-sorted or un-formatted",
+    "name": "unsorted-imports",
+    "noqa_row": 1,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/unsorted-imports"
+  }
+]

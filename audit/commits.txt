@@ -1,0 +1,11 @@
+b1aaf49a4471f0817160ed28de34e9c216e6721f  docs(audit): finalize audit and close remaining items
+aa0204de0d9d06964f9dddfa3b9ff188fd57a085  chore(state): sync final state and remaining TODOs
+194bf21d83b5bfeca6d609ec39f40a0d7c944de0  docs(audit): sync final report and commits with quality-fix commit
+51cff8280bfed4201d73e0582f2146bc892a6e5a  fix(quality): resolve lint and mypy diagnostics
+a6964468a2b367068cc207bd7d308c970f63014c  chore(generators): stabilize provenance and test target
+82bf39f6efafd56db27301431abc389c2cdc892d  feat(generators): add reproducible AT URC header generator
+c5a363827c1c2270e69e6f660a5652a4716731e4  feat(capabilities): port capability database and merge CLI
+3611087aa701a9cb873154ffd940f10ecd5326c5  feat(generators): add AT and URC C++17 generated headers
+39f228947cf440316776281399fc2f286d72a1ae  fix(dataset): preserve existing command records during port
+07cae7e6a88dcfc5c5ec25b6919573838cf79b25  data(dataset): port sibling SIM800 records with provenance
+00448cada7a05ef89d368b98dc68b512d38f299c  feat(schema): complete evidenced dataset schemas and validation baseline

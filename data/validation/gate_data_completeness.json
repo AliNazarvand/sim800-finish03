@@ -1,0 +1,26 @@
+{
+  "gate": "Data Completeness",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "commands",
+      "status": "PASS",
+      "detail": "357 records; minimum 50"
+    },
+    {
+      "name": "error_codes",
+      "status": "PASS",
+      "detail": "255 records; minimum 50"
+    },
+    {
+      "name": "deprecated_candidates",
+      "status": "PASS",
+      "detail": "43 candidates; expected 43"
+    },
+    {
+      "name": "commands_versions",
+      "status": "PASS",
+      "detail": "1095 version rows"
+    }
+  ]
+}

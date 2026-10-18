@@ -1,0 +1,5 @@
+product_id,title,description,source_pdf,schema_path,output_path,dependencies,minimum_records
+commands,AT Commands,Structural command identifiers and nullable fields,AT manuals V1.01/V1.10/V1.12,data/schemas/commands.schema.json,dataset/commands.jsonl,schemas,50
+deprecated_commands,Deprecated candidates,Identifiers removed from a newer manual scan,AT manuals V1.01/V1.10/V1.12,data/schemas/deprecated_commands.schema.json,dataset/deprecated_commands.jsonl,commands_versions,1
+error_codes,CME/CMS Error Codes,Codes and concise meanings from Summary tables,AT manuals V1.01/V1.10/V1.12,data/schemas/error_codes.schema.json,dataset/error_codes.jsonl,schemas,50
+commands_versions,Command version matrix,Command presence by manual version,AT manuals V1.01/V1.10/V1.12,data/schemas/commands_versions.schema.json,dataset/commands_versions.jsonl,commands,50

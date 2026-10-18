@@ -1,0 +1,2 @@
+2af593570a92c38f440ec78e2d071fb5d1681861691fda96d104f80f1eac13d5  /home/ubuntu/sim800-audit-output/source-snapshot-51cff82.zip
+d18387456d2f09b4f64cbc7b80b5af043bc8316933a7e32ae00f6e32726f0b2c  /home/ubuntu/sim800-audit-output/changes-bundle-51cff82.zip

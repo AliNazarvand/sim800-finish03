@@ -1,0 +1,44 @@
+[
+  {
+    "record": {
+      "_provenance": {
+        "ported_at": "2026-10-18T18:42:18.989079+00:00",
+        "source_commit": "3781dfc9d1de1add6e14e4b292bf68955f8fda99",
+        "source_path": "data/dat_03_error_code.yaml",
+        "source_record_index": 1,
+        "source_repo": "https://github.com/AliNazarvand/sim800l-data-16",
+        "source_sha256": "82729bf715b004ad309e70a99b339d10abf68badcee7969c36c66f30e73aaf72"
+      },
+      "applicable_models": [
+        "SIM800L"
+      ],
+      "category": "Blocked",
+      "code": 0,
+      "confidence": 0.0,
+      "conflicts": [],
+      "created_at": "2026-10-13T19:56:08Z",
+      "description": "Blocked: no CME/CMS tables found in sources/extracted/tables/",
+      "error_type": "CME",
+      "id": "dat_03_0001",
+      "meaning": null,
+      "notes": "v7: could not find CME/CMS tables.",
+      "recovery_steps": [],
+      "related_commands": [],
+      "source": {
+        "date": "2013-07-23",
+        "name": "SIM800 Series AT Command Manual",
+        "page": "285-292",
+        "quote": null,
+        "section": "CME/CMS Error Codes",
+        "version": "V1.01"
+      },
+      "source_type": "primary",
+      "status": "blocked",
+      "tags": [
+        "blocked"
+      ],
+      "updated_at": "2026-10-13T19:56:08Z"
+    },
+    "reason": "numeric blocked code conflicts with established CME/CMS string pattern"
+  }
+]

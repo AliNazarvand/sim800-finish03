@@ -1,0 +1,26 @@
+{
+  "gate": "Cross-Reference",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "supported command references",
+      "status": "PASS",
+      "detail": "357/357 command identifiers referenced by version matrix"
+    },
+    {
+      "name": "error categories",
+      "status": "PASS",
+      "detail": "both CME and CMS categories present"
+    },
+    {
+      "name": "deprecated provenance",
+      "status": "PASS",
+      "detail": "all candidates have compared versions and source"
+    },
+    {
+      "name": "diff artifacts",
+      "status": "PASS",
+      "detail": "adjacent-version diff artifacts exist"
+    }
+  ]
+}

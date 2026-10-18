@@ -1,0 +1,40 @@
+{
+  "run_id": "sim800-full-completion-2026-10-18",
+  "artifact_path": "<parent-of-repo>/sim800-audit-output/",
+  "working_branch": "ai/full-completion",
+  "baseline_sha": "440e3e0d6a57c9b529e8bb1aef55df451edc0389",
+  "last_completed_phase": "phase_3",
+  "last_completed_commit": "194bf21d83b5bfeca6d609ec39f40a0d7c944de0",
+  "next_action": "completed",
+  "completed_commits": [
+    "00448ca",
+    "07cae7e",
+    "39f2289",
+    "3611087",
+    "c5a3638",
+    "82bf39f",
+    "a696446",
+    "51cff82",
+    "194bf21"
+  ],
+  "pending_blockers": [],
+  "checkpoints": [
+    {
+      "at": "2026-10-18T22:19:30+03:30",
+      "phase": "phase_3",
+      "summary_path": "report.md"
+    }
+  ],
+  "usage_ref": "usage.json",
+  "state_sync_note": "The documentation-only state sync commit does not change the last completed audit commit.",
+  "state_sync_commit": "aa0204de0d9d06964f9dddfa3b9ff188fd57a085",
+  "status": "completed",
+  "final_decisions": {
+    "dataset/errors.jsonl": "intentionally empty (insufficient evidence)",
+    "mkdocs": "accepted out-of-scope",
+    "SIM800-Monorepo": "accepted out-of-scope",
+    "secret history scan": "accepted with limited basic regex scope"
+  },
+  "completion_note": "All remaining items were explicitly accepted or deferred by the user; no further execution is required.",
+  "finalization_commit": "b1aaf49a4471f0817160ed28de34e9c216e6721f"
+}

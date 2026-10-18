@@ -1,0 +1,29 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "commands_suite",
+  "meta": {
+    "notes": {
+      "format": "markdown",
+      "content": "Structural checks for the SIM800 command product."
+    }
+  },
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {"min_value": 50}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {"column": "command"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {"column": "command"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {"column": "command", "type_": "str"}
+    }
+  ],
+  "ge_cloud_id": null
+}

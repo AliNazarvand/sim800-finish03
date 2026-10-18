@@ -1,0 +1,1 @@
+{"$schema":"http://json-schema.org/draft-07/schema#","title":"Command version compatibility","type":"object","required":["command","version","supported"],"properties":{"command":{"type":"string","minLength":2},"version":{"type":"string","minLength":1},"supported":{"type":"boolean"},"notes":{"type":["string","null"]},"source":{"type":"string"}},"additionalProperties":true}

@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-17T20:01:57.118448+00:00",
+  "count": 13,
+  "files": [
+    {
+      "file": "SIM800 Series_AT Command Manual_V1.01.pdf",
+      "size_bytes": 7280172,
+      "healthy": true,
+      "pages": "315",
+      "encrypted": "yes (print:yes copy:no change:no addNotes:no algorithm:RC4)"
+    },
+    {
+      "file": "SIM800 Series_AT Command Manual_V1.10.pdf",
+      "size_bytes": 4209019,
+      "healthy": true,
+      "pages": "384",
+      "encrypted": "no"
+    },
+    {
+      "file": "SIM800 Series_AT Command Manual_V1.12.pdf",
+      "size_bytes": 2463360,
+      "healthy": true,
+      "pages": "364",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)"
+    },
+    {
+      "file": "SIM800A_Hardware Design_V1.02.pdf",
+      "size_bytes": 1481508,
+      "healthy": true,
+      "pages": "60",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)"
+    },
+    {
+      "file": "SIM800C-DS_Hardware_Design_V1.01.pdf",
+      "size_bytes": 2346250,
+      "healthy": true,
+      "pages": "57",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)"
+    },
+    {
+      "file": "SIM800C_Hardware_Design_V1.02.pdf",
+      "size_bytes": 1480932,
+      "healthy": true,
+      "pages": "52",
+      "encrypted": "no"
+    },
+    {
+      "file": "SIM800F_Hardware Design_V1.05.pdf",
+      "size_bytes": 1307690,
+      "healthy": true,
+      "pages": "64",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)"
+    },
+    {
+      "file": "SIM800H&SIM800L_Hardware Design_V2.02.PDF",
+      "size_bytes": 2766992,
+      "healthy": true,
+      "pages": "73",
+      "encrypted": "no"
+    },
+    {
+      "file": "SIM800H_Hardware Design_V2.03.pdf",
+      "size_bytes": 2070718,
+      "healthy": true,
+      "pages": "66",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)"
+    },
+    {
+      "file": "SIM800L_Hardware Design_V1.00.pdf",
+      "size_bytes": 2830869,
+      "healthy": true,
+      "pages": "70",
+      "encrypted": "yes (print:yes copy:no change:no addNotes:no algorithm:RC4)"
+    },
+    {
+      "file": "SIM800_Hardware Design_V1.09.pdf",
+      "size_bytes": 2560978,
+      "healthy": true,
+      "pages": "64",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)"
+    },
+    {
+      "file": "SIM808_Hardware Design_V1.03.pdf",
+      "size_bytes": 2531808,
+      "healthy": true,
+      "pages": "70",
+      "encrypted": "yes (print:yes copy:yes change:no addNotes:no algorithm:AES)"
+    },
+    {
+      "file": "SIM868_Hardware_Design_V1.00.pdf",
+      "size_bytes": 2273731,
+      "healthy": true,
+      "pages": "59",
+      "encrypted": "no"
+    }
+  ]
+}

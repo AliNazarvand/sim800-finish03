@@ -1,0 +1,21 @@
+{
+  "gate": "License Compatibility",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "source boundary",
+      "status": "PASS",
+      "detail": "raw source policy documents external ownership"
+    },
+    {
+      "name": "provenance",
+      "status": "PASS",
+      "detail": "all populated product rows carry source provenance"
+    },
+    {
+      "name": "no long-form source text",
+      "status": "PASS",
+      "detail": "records remain structural/concise"
+    }
+  ]
+}

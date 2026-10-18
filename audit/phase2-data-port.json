@@ -1,0 +1,149 @@
+{
+  "source_commit": "3781dfc9d1de1add6e14e4b292bf68955f8fda99",
+  "records": [
+    {
+      "source": "dat_01_at_command.yaml",
+      "destination": "dataset/commands.jsonl",
+      "source_records": 365,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "5fd470efa913e8832e83d5f92c9572c3add129f729f60aadfdbcaeb8c539d73f"
+    },
+    {
+      "source": "dat_02_urc.yaml",
+      "destination": "dataset/urcs.jsonl",
+      "source_records": 95,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "943d01215ce6cc6a5923fd517998f82372c4afa4471077f22c4967f42deb575a"
+    },
+    {
+      "source": "dat_03_error_code.yaml",
+      "destination": "dataset/error_codes.jsonl",
+      "source_records": 1,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "82729bf715b004ad309e70a99b339d10abf68badcee7969c36c66f30e73aaf72"
+    },
+    {
+      "source": "dat_04_timing_timeout.yaml",
+      "destination": "dataset/timings.jsonl",
+      "source_records": 5,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "ed2c91d8b6bd53a53c9ebaba060eb1499c82167c1730725dd951fb16435d9cbc"
+    },
+    {
+      "source": "dat_05_state_machine.yaml",
+      "destination": "dataset/states.jsonl",
+      "source_records": 31,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "55319d784fdd06b9013798f8623d8069c49f3406c024f5bad3a1bcd647d26aa0"
+    },
+    {
+      "source": "dat_06_init_sequence.yaml",
+      "destination": "dataset/init_sequences.jsonl",
+      "source_records": 35,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "99d6cb7a2a874bb2fab860c3ad189d6a3c7ad0d76ecb0eef2a6379ffe36b4a6a"
+    },
+    {
+      "source": "dat_07_hardware_reference.yaml",
+      "destination": "dataset/hardware.jsonl",
+      "source_records": 77,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "f2a868ab593d7c5b549936b51c43dbda98e414c3a9a1359e6bbe85bfa842c155"
+    },
+    {
+      "source": "dat_08_firmware_compatibility.yaml",
+      "destination": "dataset/firmware_matrix.jsonl",
+      "source_records": 1,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "4bda224e47fc0e4b3d223f9857ab96f4672915939d0b446a575a2e1ef5fafd1a"
+    },
+    {
+      "source": "dat_09_sms.yaml",
+      "destination": "dataset/sms.jsonl",
+      "source_records": 14,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "996657b51f3aebba3885fe513dfdf02245c366d77d55b4a5c69ea0dd35f2b656"
+    },
+    {
+      "source": "dat_10_gprs_data.yaml",
+      "destination": "dataset/gprs.jsonl",
+      "source_records": 24,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "0b66ae5a78ae7e8b876626adfdad87a66c55724872e7fcd6eacff5811904b6a6"
+    },
+    {
+      "source": "dat_11_http_ftp_ssl.yaml",
+      "destination": "dataset/http_ftp_ssl.jsonl",
+      "source_records": 38,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "c588010adea8f17ea05149901577450354c0c590a1273b98ae5d699c0adf2387"
+    },
+    {
+      "source": "dat_12_audio.yaml",
+      "destination": "dataset/audio.jsonl",
+      "source_records": 13,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "65923f8b9a1ad0f6960231bcd4cd9ec6f598361368d0f6b20002909e6fa5a706"
+    },
+    {
+      "source": "dat_13_sim_management.yaml",
+      "destination": "dataset/sim.jsonl",
+      "source_records": 10,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "2a5a6cd34d61c75f4328d9aab7533ca65269de3eb2f4accb59ecc7c8af71bdc4"
+    },
+    {
+      "source": "dat_14_operator_apn.yaml",
+      "destination": "dataset/apn_mcc_mnc.jsonl",
+      "source_records": 52,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "b6aade4a957ed73cbd01650f5cbd3dc5eeb18d3d3972bd961bbf1ffdcf69a3cc"
+    },
+    {
+      "source": "dat_15_power_management.yaml",
+      "destination": "dataset/power.jsonl",
+      "source_records": 1,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "05c4f0c0d66d1d861f39e5efeab5271be442155aa66256d4d9ad8e540fdf0536"
+    },
+    {
+      "source": "dat_16_board_evb.yaml",
+      "destination": "dataset/boards.jsonl",
+      "source_records": 1,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "e1a8512d5a7cdc998255e985977b7923b9f999993de1a332651a27b69f84749f"
+    },
+    {
+      "source": "dat_17_certificate_key_store.yaml",
+      "destination": "dataset/certificates.jsonl",
+      "source_records": 9,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "e8554cbe35b449f19108b593c3213a99686e46ee1ef3f2116b6e7d61a1ab1923"
+    },
+    {
+      "source": "dat_18_certification.yaml",
+      "destination": "dataset/certifications.jsonl",
+      "source_records": 1,
+      "added": 0,
+      "rejected": 0,
+      "source_sha256": "8eac1325445779a68a950aa7834c93d041804ff324ce093f745ab7ed8cbe0c02"
+    }
+  ]
+}

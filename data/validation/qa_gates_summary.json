@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "gates": [
+    {
+      "gate": "Schema Conformance",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "commands",
+          "status": "PASS",
+          "detail": "357/357 rows conform to Draft 7 schema"
+        },
+        {
+          "name": "commands_versions",
+          "status": "PASS",
+          "detail": "1095/1095 rows conform to Draft 7 schema"
+        },
+        {
+          "name": "deprecated_commands",
+          "status": "PASS",
+          "detail": "43/43 rows conform to Draft 7 schema"
+        },
+        {
+          "name": "error_codes",
+          "status": "PASS",
+          "detail": "255/255 rows conform to Draft 7 schema"
+        }
+      ]
+    },
+    {
+      "gate": "Data Completeness",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "commands",
+          "status": "PASS",
+          "detail": "357 records; minimum 50"
+        },
+        {
+          "name": "error_codes",
+          "status": "PASS",
+          "detail": "255 records; minimum 50"
+        },
+        {
+          "name": "deprecated_candidates",
+          "status": "PASS",
+          "detail": "43 candidates; expected 43"
+        },
+        {
+          "name": "commands_versions",
+          "status": "PASS",
+          "detail": "1095 version rows"
+        }
+      ]
+    },
+    {
+      "gate": "Cross-Reference",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "supported command references",
+          "status": "PASS",
+          "detail": "357/357 command identifiers referenced by version matrix"
+        },
+        {
+          "name": "error categories",
+          "status": "PASS",
+          "detail": "both CME and CMS categories present"
+        },
+        {
+          "name": "deprecated provenance",
+          "status": "PASS",
+          "detail": "all candidates have compared versions and source"
+        },
+        {
+          "name": "diff artifacts",
+          "status": "PASS",
+          "detail": "adjacent-version diff artifacts exist"
+        }
+      ]
+    },
+    {
+      "gate": "Reproducibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "rebuild hash stability",
+          "status": "PASS",
+          "detail": "product and diff hashes are unchanged after a clean rebuild"
+        }
+      ]
+    },
+    {
+      "gate": "CI Syntax",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "validation.yml",
+          "status": "PASS",
+          "detail": "valid YAML with jobs"
+        },
+        {
+          "name": "windows-powershell.yml",
+          "status": "PASS",
+          "detail": "valid YAML with jobs"
+        },
+        {
+          "name": "pre-commit",
+          "status": "PASS",
+          "detail": "valid YAML with repositories"
+        }
+      ]
+    },
+    {
+      "gate": "License Compliance",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "no raw PDFs",
+          "status": "PASS",
+          "detail": "0 raw PDF files in release tree"
+        },
+        {
+          "name": "MIT license",
+          "status": "PASS",
+          "detail": "project license is MIT"
+        },
+        {
+          "name": "license guidance",
+          "status": "PASS",
+          "detail": "compatibility guidance exists"
+        }
+      ]
+    },
+    {
+      "gate": "License Compatibility",
+      "status": "PASS",
+      "checks": [
+        {
+          "name": "source boundary",
+          "status": "PASS",
+          "detail": "raw source policy documents external ownership"
+        },
+        {
+          "name": "provenance",
+          "status": "PASS",
+          "detail": "all populated product rows carry source provenance"
+        },
+        {
+          "name": "no long-form source text",
+          "status": "PASS",
+          "detail": "records remain structural/concise"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "commands": 357,
+    "commands_versions": 1095,
+    "deprecated_commands": 43,
+    "error_codes": 255
+  }
+}

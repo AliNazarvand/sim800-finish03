@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/sim800/errors.schema.json",
+  "title": "SIM800 errors",
+  "type": "object",
+  "additionalProperties": true,
+  "$comment": "insufficient evidence: dataset/errors.jsonl contains no valid records; no unsupported required fields inferred"
+}

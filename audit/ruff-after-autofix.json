@@ -1,0 +1,838 @@
+[
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 122,
+      "row": 37
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/audit.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 37
+    },
+    "message": "Line too long (121 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 37,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 37,
+      "row": 214
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 36,
+      "row": 214
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 214,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 216
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 104,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 103,
+      "row": 216
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 135,
+      "row": 216
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 216
+    },
+    "message": "Line too long (134 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 216,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 59,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 58,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 218
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 130,
+      "row": 218
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 129,
+      "row": 218
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 218,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 33,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 32,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 59,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 58,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 220
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 130,
+      "row": 220
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 129,
+      "row": 220
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 220,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 32,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 31,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 58,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 57,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 83,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 82,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 238,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 222
+    },
+    "message": "Line too long (237 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 137,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 136,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 208,
+      "row": 222
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 207,
+      "row": 222
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 222,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 36,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 35,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 63,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 62,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 90,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 89,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 195,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 224
+    },
+    "message": "Line too long (194 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 161,
+      "row": 224
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 160,
+      "row": 224
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 224,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 35,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 34,
+      "row": 226
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 120,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 119,
+      "row": 226
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 153,
+      "row": 226
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 226
+    },
+    "message": "Line too long (152 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 226,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 37,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 36,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 114,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 113,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 189,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 228
+    },
+    "message": "Line too long (188 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 154,
+      "row": 228
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 153,
+      "row": 228
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 228,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 34,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 33,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 76,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 75,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 179,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 230
+    },
+    "message": "Line too long (178 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 147,
+      "row": 230
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 146,
+      "row": 230
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 230,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 38,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 37,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 80,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 79,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 246,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 232
+    },
+    "message": "Line too long (245 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 139,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 138,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E702",
+    "end_location": {
+      "column": 210,
+      "row": 232
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/cli.py",
+    "fix": null,
+    "location": {
+      "column": 209,
+      "row": 232
+    },
+    "message": "Multiple statements on one line (semicolon)",
+    "name": "multiple-statements-on-one-line-semicolon",
+    "noqa_row": 232,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/multiple-statements-on-one-line-semicolon"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 160,
+      "row": 36
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 36
+    },
+    "message": "Line too long (159 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 36,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 161,
+      "row": 39
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/compare.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 39
+    },
+    "message": "Line too long (160 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 39,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 152,
+      "row": 242
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/capabilities/validator.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 242
+    },
+    "message": "Line too long (151 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 242,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 123,
+      "row": 206
+    },
+    "filename": "/home/ubuntu/sim800-platform-all-new9/src/generators/cpp_header/generate_at_urc.py",
+    "fix": null,
+    "location": {
+      "column": 121,
+      "row": 206
+    },
+    "message": "Line too long (122 > 120)",
+    "name": "line-too-long",
+    "noqa_row": 206,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  }
+]

@@ -1,0 +1,6 @@
+make_test=0
+capability_tests=0
+capability_validation=0
+generator_runs=0
+urc_smoke=0
+capabilities_smoke=0

@@ -1,0 +1,245 @@
+{
+  "repository": "sim800-capabilities",
+  "commit_sha": "41956a1282f7ee384a39ba6e488e1b8a958799b8",
+  "license_files": [
+    "LICENSE"
+  ],
+  "generated_at": "2026-10-18T18:41:05+00:00",
+  "source": "network",
+  "resolved_path": "<parent-of-repo>/siblings/sim800-capabilities",
+  "file_count": 45,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "1bca73795fa95d3f622aaccf8e0e2f97c8b5e59569689d8c8c6e9326931b89ca",
+      "type": "file"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "65fe53ad31a5ea355bac038468f1ce5e9ae0ccac2317d1b8788c7fab2a5ca15d",
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c1081129e7dc968c7c43f66dffd647e9036e34d58e5caa534b0911daf0cfef31",
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "e33ab18980f23dc133def520bfdbe70305f8398cbf228e870a66754065b0c564",
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "242555607eb73b72486f2ef6fa673cfde3307880d81782173075fefc55ac48db",
+      "type": "file"
+    },
+    {
+      "path": "data/capabilities.yaml",
+      "sha256": "848452c97279728fbeb70dca76e71f969abd0bde83b5e68e35199c3791e3026e",
+      "type": "file"
+    },
+    {
+      "path": "data/out-of-scope.yaml",
+      "sha256": "94bac1fd8ae6475b0e2e68a73316526c5047b591febd73d7dd15ac4608639cf3",
+      "type": "file"
+    },
+    {
+      "path": "data/scope.yaml",
+      "sha256": "8d6d584d04e2509578c108e473cf59ee64e4843ecb134c383ffc32e6363380ca",
+      "type": "file"
+    },
+    {
+      "path": "data/sources.yaml",
+      "sha256": "cba8c82c359579b5fda76ecf4aa5046882bf36fd130e9228fd343cb54302c579",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800.yaml",
+      "sha256": "b9973144a89985fbf0e6dead0b4d2b4e3bd23c29fd97485a685d5cb0395399ee",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800a.yaml",
+      "sha256": "36b66adbd618a25bfc653e084efc57b1a94abc6e1305e5218f40b659e8c67424",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800c-ds.yaml",
+      "sha256": "41293a2237aa78dee5d9e8bab78c3d9dc6f00780ee47673fef7ca2dca63ea628",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800c.yaml",
+      "sha256": "1e3ad1fe3ebc262cb61acad4c00af1e9a7d84c0e7b053a47d4ea64b96f637a7d",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800f.yaml",
+      "sha256": "630e1c7db3bf00c25685c53c358105fb315e7e11475d06a84fa7a4ba6a7d921d",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800h.yaml",
+      "sha256": "a209292fc1c6c4d9467e998d72e8a5ed1cd5a86e1ce4f56ae63933b8bda42979",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim800l.yaml",
+      "sha256": "5e0fc97967ec10b059cf04d142882488c1ed80045bc56f3a24a409b61a6bc2e7",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim808.yaml",
+      "sha256": "2b6399fd15f5c107443788f2fc95530ed2b068d329ec63947a35dfb1145a9dda",
+      "type": "file"
+    },
+    {
+      "path": "data/models/sim868.yaml",
+      "sha256": "7b5e241f81e4bf72ec175c6d8d5b79560f93f4663a330ad2a283f088c616c628",
+      "type": "file"
+    },
+    {
+      "path": "docs/conflict-resolution.md",
+      "sha256": "caca6af51b7ae6228b9105e67b0858f8e5f7105591e3d090d195e3a691c4f71b",
+      "type": "file"
+    },
+    {
+      "path": "docs/extraction-notes.md",
+      "sha256": "d47c0e9cda3219f22417a6ae8955745c22b06542924a287324f2ea315b6b7a43",
+      "type": "file"
+    },
+    {
+      "path": "docs/provenance.md",
+      "sha256": "dec6df71fc17be4324f29f89172d8eb5450f5489bc9870f97bd92d10cac41cd5",
+      "type": "file"
+    },
+    {
+      "path": "include/sim800_capabilities.hpp",
+      "sha256": "b09b763f3d367e107017669ec3f407355dc6c99d65853e424dc6419da7e19cb7",
+      "type": "file"
+    },
+    {
+      "path": "schema/capability.schema.json",
+      "sha256": "5d4b9f3a6426587f79939b4c54cfedd1d2af551c047afeeded1b72e3a6117b90",
+      "type": "file"
+    },
+    {
+      "path": "schema/out-of-scope.schema.json",
+      "sha256": "d2e5079566f06952df16d15bfa151137449def7dc24fa5c458593659b211f176",
+      "type": "file"
+    },
+    {
+      "path": "schema/scope.schema.json",
+      "sha256": "ca63bc56c714b594b56ccc16b04fb10be40eeeeafb18e553450470ba6be66a11",
+      "type": "file"
+    },
+    {
+      "path": "schema/sources.schema.json",
+      "sha256": "ec87796a2c8389c7af5387bbe686ae8948af74fb92b4790a158f2f2e852280bd",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/__init__.py",
+      "sha256": "af932fcf1b61d711350ea1535d45a8625393cd5089ad2ea90f7796570b21572c",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/audit.py",
+      "sha256": "9d6d74289366b804b9c0ab30fe2ee28a6d3129f8d2ce1b2a803ffe7b75080b33",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/cli.py",
+      "sha256": "ef9fe26319f8b802a8c0e49084e847181086a934570a54664232ef80ea43bc3d",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/compare.py",
+      "sha256": "6c906392d40e4bfdfcc87888fc52339bbedcf06025f74ebf9bcac64c52153e90",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/cpp.py",
+      "sha256": "09a2fbaa6c5eb30ce485049e7515431cc4cb8720840bee4a56ca246c4a351844",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/generate.py",
+      "sha256": "3bc16afc2d23258cfd4ae74f158c165eaaddeb19545c3c1ed41fad427cb21215",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/loader.py",
+      "sha256": "092fc475bf5f4a7a14f2c12ccab5555fe50a463ea6102d1888fb6eb10bc5ffa2",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/query.py",
+      "sha256": "fe9bf88c9546903a218236c64643bba47818162287f20cc03831bb4108fd4d00",
+      "type": "file"
+    },
+    {
+      "path": "src/sim800_capabilities/validator.py",
+      "sha256": "c54f7fb1d0dd2ec16080ab838723344f15613bb008ca569445a516eec2ac3e81",
+      "type": "file"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "618f9675046f7c4bdc8a0d8dc52df37dea1fa26fac27cfb2aa9b16ad7fd47f02",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "sha256": "22a7980f5f9a46d55ea59be72385809fecce3a32b500b001c9e1ee4868d78dd0",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_compare.py",
+      "sha256": "8b190247b491d607c45df16823e0270163b334dcfc7ee8987164937d18956b92",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_cpp.py",
+      "sha256": "1d464c5e46620aec2bf31dba88d1d07c75367dce42bce1b79dfd556f9c353f8d",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_data_integrity.py",
+      "sha256": "185895619ca9d72b9cfbb8538acc36e13eda649efd073933c5881281e580b56f",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_generate.py",
+      "sha256": "370172016b8b007edca9f9e1e0d97cdb49781ea609efbad79ebcbfc510512d66",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_loader.py",
+      "sha256": "d859ce08561e7d9acee0988174bb1e474da2aacc732dba6d98e2a2fc8d06ff3f",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_query.py",
+      "sha256": "379c657184953bacd5d2adf1521c24d47ba79bdf70616e8bf292b8f8a7e3dee6",
+      "type": "file"
+    },
+    {
+      "path": "tests/test_validator.py",
+      "sha256": "9fe52fd76b93b59c780f3e529712c3ae6f3192b146ecaa2461fdceddde09d4ce",
+      "type": "file"
+    },
+    {
+      "path": "tests/fixtures/__init__.py",
+      "sha256": "73d1d9ae25934fad6b2297de81c4bd1d0d40149b2974923b8819a7f9bc0a32c2",
+      "type": "file"
+    }
+  ],
+  "push_protection": {
+    "original_push_url": "https://github.com/AliNazarvand/sim800-capabilities.git",
+    "push_url_after": "no_push",
+    "dry_run_exit_code": 128,
+    "current_dry_run_exit_code": 128,
+    "status_unchanged": true
+  }
+}

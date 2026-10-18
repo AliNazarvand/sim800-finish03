@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "/home/ubuntu/sim800-platform-all/dataset/commands.jsonl",
+    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/commands.schema.json",
+    "valid": 357,
+    "invalid": 0,
+    "total": 357,
+    "errors": []
+  },
+  {
+    "dataset": "/home/ubuntu/sim800-platform-all/dataset/commands_versions.jsonl",
+    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/commands_versions.schema.json",
+    "valid": 1095,
+    "invalid": 0,
+    "total": 1095,
+    "errors": []
+  },
+  {
+    "dataset": "/home/ubuntu/sim800-platform-all/dataset/deprecated_commands.jsonl",
+    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/deprecated_commands.schema.json",
+    "valid": 43,
+    "invalid": 0,
+    "total": 43,
+    "errors": []
+  },
+  {
+    "dataset": "/home/ubuntu/sim800-platform-all/dataset/error_codes.jsonl",
+    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/error_codes.schema.json",
+    "valid": 255,
+    "invalid": 0,
+    "total": 255,
+    "errors": []
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sms",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "command": {
+      "type": "string"
+    },
+    "concat_sms": {
+      "type": [
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "delivery_report": {
+      "type": [
+        "null"
+      ]
+    },
+    "encoding": {
+      "type": [
+        "null"
+      ]
+    },
+    "examples": {
+      "type": "array",
+      "items": {}
+    },
+    "firmware_max": {
+      "type": [
+        "null"
+      ]
+    },
+    "firmware_min": {
+      "type": [
+        "null"
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "array",
+      "items": {}
+    },
+    "related_commands": {
+      "type": "array",
+      "items": {}
+    },
+    "related_states": {
+      "type": "array",
+      "items": {}
+    },
+    "related_urcs": {
+      "type": "array",
+      "items": {}
+    },
+    "response": {
+      "type": [
+        "null"
+      ]
+    },
+    "response_error": {
+      "type": [
+        "null"
+      ]
+    },
+    "response_success": {
+      "type": [
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "storage": {
+      "type": [
+        "null"
+      ]
+    },
+    "syntax": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "command",
+    "concat_sms",
+    "confidence",
+    "conflicts",
+    "created_at",
+    "delivery_report",
+    "encoding",
+    "examples",
+    "firmware_max",
+    "firmware_min",
+    "id",
+    "mode",
+    "notes",
+    "parameters",
+    "related_commands",
+    "related_states",
+    "related_urcs",
+    "response",
+    "response_error",
+    "response_success",
+    "source",
+    "source_type",
+    "status",
+    "storage",
+    "syntax",
+    "tags",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

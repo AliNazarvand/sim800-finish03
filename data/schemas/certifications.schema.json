@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "certifications",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "_provenance": {
+      "type": "object",
+      "properties": {
+        "ported_at": {
+          "type": "string"
+        },
+        "source_commit": {
+          "type": "string"
+        },
+        "source_path": {
+          "type": "string"
+        },
+        "source_record_index": {
+          "type": "integer"
+        },
+        "source_repo": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "applicable_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "certificate_number": {
+      "type": [
+        "null"
+      ]
+    },
+    "certification_body": {
+      "type": [
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {}
+    },
+    "country": {
+      "type": [
+        "null"
+      ]
+    },
+    "coverage_estimate": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "date_expiry": {
+      "type": [
+        "null"
+      ]
+    },
+    "date_issued": {
+      "type": [
+        "null"
+      ]
+    },
+    "document_link": {
+      "type": [
+        "null"
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "standard": {
+      "type": [
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {}
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_provenance",
+    "applicable_models",
+    "category",
+    "certificate_number",
+    "certification_body",
+    "confidence",
+    "conflicts",
+    "country",
+    "coverage_estimate",
+    "created_at",
+    "date_expiry",
+    "date_issued",
+    "document_link",
+    "id",
+    "notes",
+    "source",
+    "source_type",
+    "standard",
+    "status",
+    "tags",
+    "updated_at"
+  ],
+  "$comment": "required inferred from 100% of sampled records; data-only required"
+}

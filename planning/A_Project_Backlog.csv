@@ -1,0 +1,11 @@
+task_id,title,description,phase,priority,depends_on,estimate_effort,status
+T-001,Scaffolding complete,Build package and data structure,0,P0,,1-4h,Done
+T-002,Schemas,Create four product schemas,0,P0,T-001,1-4h,Done
+T-003,Extraction pipeline,Extract structural data from source PDFs,2,P0,T-002,1-4h,Done
+T-004,Driver,Implement AT transport with retries,2,P0,T-001,1-4h,Done
+T-005,Adapter,Expose common modem API,2,P1,T-004,1-4h,Done
+T-006,Validation,Validate JSONL and quarantine invalid rows,2,P0,T-002,1-4h,Done
+T-007,Diffing,Compare manual command sets,2,P0,T-003,1-4h,Done
+T-008,QA,"Run pytest, mypy and ruff",3,P0,T-004;T-006;T-007,1-4h,Done
+T-009,Documentation,"ADR, guides and spot checks",4,P1,T-003;T-007,1-4h,Done
+T-010,Packaging,Build archives and manifest,5,P0,T-008;T-009,1-4h,Done

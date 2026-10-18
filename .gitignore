@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Environment
+.env
+.env.local
+
+# Data (PDFs are never committed)
+data/raw/*.pdf
+data/raw/*.PDF
+data/backup/
+data/quarantine/
+data/tmp/
+!data/raw/README.md
+!data/raw/MISSING_DATASHEETS.md
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Persistence test file
+.persistence_test
+
+# Great Expectations
+great_expectations/uncommitted/
+gx/uncommitted/
+gx/uncommitted/config_variables.yml

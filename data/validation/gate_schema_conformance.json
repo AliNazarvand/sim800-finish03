@@ -1,0 +1,26 @@
+{
+  "gate": "Schema Conformance",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "commands",
+      "status": "PASS",
+      "detail": "357/357 rows conform to Draft 7 schema"
+    },
+    {
+      "name": "commands_versions",
+      "status": "PASS",
+      "detail": "1095/1095 rows conform to Draft 7 schema"
+    },
+    {
+      "name": "deprecated_commands",
+      "status": "PASS",
+      "detail": "43/43 rows conform to Draft 7 schema"
+    },
+    {
+      "name": "error_codes",
+      "status": "PASS",
+      "detail": "255/255 rows conform to Draft 7 schema"
+    }
+  ]
+}

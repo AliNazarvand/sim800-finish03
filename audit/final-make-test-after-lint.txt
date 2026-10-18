@@ -1,0 +1,38 @@
+python -m pytest
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.7.0
+rootdir: /home/ubuntu/sim800-platform-all-new9
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collected 53 items
+
+tests/capabilities/test_audit.py ..                                      [  3%]
+tests/capabilities/test_compare.py ..                                    [  7%]
+tests/capabilities/test_cpp.py ....                                      [ 15%]
+tests/capabilities/test_data_integrity.py ..                             [ 18%]
+tests/capabilities/test_generate.py .                                    [ 20%]
+tests/capabilities/test_loader.py ....                                   [ 28%]
+tests/capabilities/test_query.py ...                                     [ 33%]
+tests/capabilities/test_validator.py .                                   [ 35%]
+tests/integration/test_products_pipeline.py ..                           [ 39%]
+tests/unit/test_data_tools.py ...............                            [ 67%]
+tests/unit/test_driver.py .................                              [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name                                 Stmts   Miss  Cover   Missing
+------------------------------------------------------------------
+src/sim800_adapter/__init__.py           2      0   100%
+src/sim800_adapter/adapter.py           22      1    95%   29
+src/sim800_diffing/__init__.py           2      0   100%
+src/sim800_diffing/diff.py              24      0   100%
+src/sim800_driver/__init__.py            2      0   100%
+src/sim800_driver/driver.py             57      2    96%   60-61
+src/sim800_validation/__init__.py        2      0   100%
+src/sim800_validation/validator.py      36      0   100%
+------------------------------------------------------------------
+TOTAL                                  147      3    98%
+Required test coverage of 80% reached. Total coverage: 97.96%
+============================= 53 passed in 40.61s ==============================

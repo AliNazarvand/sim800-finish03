@@ -1,0 +1,21 @@
+{
+  "gate": "License Compliance",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "no raw PDFs",
+      "status": "PASS",
+      "detail": "0 raw PDF files in release tree"
+    },
+    {
+      "name": "MIT license",
+      "status": "PASS",
+      "detail": "project license is MIT"
+    },
+    {
+      "name": "license guidance",
+      "status": "PASS",
+      "detail": "compatibility guidance exists"
+    }
+  ]
+}

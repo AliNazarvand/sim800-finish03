@@ -1,0 +1,17 @@
+token_budget:
+  input_max: 3000000
+  output_max: 600000
+  total_max: 3600000
+api_calls_max: 800
+wall_time_max_hours: 14
+commits_max: 150
+context_window_tokens: 200000
+thresholds:
+  compaction: 0.70
+  aggressive_compaction: 0.85
+  warn: 0.80
+  halt: 0.95
+limits:
+  max_read_lines_per_file: 2000
+  max_tool_output_lines: 500
+  max_full_read_bytes: 1048576
