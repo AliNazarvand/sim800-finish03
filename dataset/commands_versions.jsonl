@@ -466,9 +466,6 @@
 {"command": "AT+CMMSSENDC", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+CMMSSENDC", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+CMMSSENDC", "version": "1.12", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
-{"command": "AT+CMMSSENDCF", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
-{"command": "AT+CMMSSENDCF", "version": "1.10", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
-{"command": "AT+CMMSSENDCF", "version": "1.12", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
 {"command": "AT+CMMSSENDCFG", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+CMMSSENDCFG", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+CMMSSENDCFG", "version": "1.12", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
@@ -511,9 +508,6 @@
 {"command": "AT+CMUX", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+CMUX", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+CMUX", "version": "1.12", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
-{"command": "AT+CN", "version": "1.01", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
-{"command": "AT+CN", "version": "1.10", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
-{"command": "AT+CN", "version": "1.12", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
 {"command": "AT+CNETLIGH", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+CNETLIGH", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+CNETLIGH", "version": "1.12", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
@@ -781,9 +775,6 @@
 {"command": "AT+FTPMKD", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+FTPMKD", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+FTPMKD", "version": "1.12", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
-{"command": "AT+FTPMOD", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
-{"command": "AT+FTPMOD", "version": "1.10", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
-{"command": "AT+FTPMOD", "version": "1.12", "supported": false, "notes": "Not observed in this manual's command index scan", "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}
 {"command": "AT+FTPMODE", "version": "1.01", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.01.pdf"}
 {"command": "AT+FTPMODE", "version": "1.10", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.10.pdf"}
 {"command": "AT+FTPMODE", "version": "1.12", "supported": true, "notes": null, "source": "SIM800 Series_AT Command Manual_V1.12.pdf"}

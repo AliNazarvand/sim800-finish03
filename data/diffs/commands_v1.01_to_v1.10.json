@@ -55,8 +55,6 @@
   ],
   "removed": [
     "AT+CEXTBUT",
-    "AT+CMMSSENDCF",
-    "AT+FTPMOD",
     "AT+FTSIZE"
   ],
   "changed": [

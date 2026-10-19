@@ -1,34 +1,170 @@
 [
   {
-    "dataset": "/home/ubuntu/sim800-platform-all/dataset/commands.jsonl",
-    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/commands.schema.json",
-    "valid": 357,
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\apn_mcc_mnc.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\apn_mcc_mnc.schema.json",
+    "valid": 52,
     "invalid": 0,
-    "total": 357,
+    "total": 52,
     "errors": []
   },
   {
-    "dataset": "/home/ubuntu/sim800-platform-all/dataset/commands_versions.jsonl",
-    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/commands_versions.schema.json",
-    "valid": 1095,
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\audio.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\audio.schema.json",
+    "valid": 13,
     "invalid": 0,
-    "total": 1095,
+    "total": 13,
     "errors": []
   },
   {
-    "dataset": "/home/ubuntu/sim800-platform-all/dataset/deprecated_commands.jsonl",
-    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/deprecated_commands.schema.json",
-    "valid": 43,
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\boards.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\boards.schema.json",
+    "valid": 1,
     "invalid": 0,
-    "total": 43,
+    "total": 1,
     "errors": []
   },
   {
-    "dataset": "/home/ubuntu/sim800-platform-all/dataset/error_codes.jsonl",
-    "schema": "/home/ubuntu/sim800-platform-all/data/schemas/error_codes.schema.json",
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\certificates.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\certificates.schema.json",
+    "valid": 9,
+    "invalid": 0,
+    "total": 9,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\certifications.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\certifications.schema.json",
+    "valid": 1,
+    "invalid": 0,
+    "total": 1,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\commands.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\commands.schema.json",
+    "valid": 987,
+    "invalid": 0,
+    "total": 987,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\commands_versions.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\commands_versions.schema.json",
+    "valid": 1086,
+    "invalid": 0,
+    "total": 1086,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\deprecated_commands.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\deprecated_commands.schema.json",
+    "valid": 41,
+    "invalid": 0,
+    "total": 41,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\error_codes.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\error_codes.schema.json",
     "valid": 255,
     "invalid": 0,
     "total": 255,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\errors.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\errors.schema.json",
+    "valid": 0,
+    "invalid": 0,
+    "total": 0,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\firmware_matrix.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\firmware_matrix.schema.json",
+    "valid": 1,
+    "invalid": 0,
+    "total": 1,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\gprs.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\gprs.schema.json",
+    "valid": 24,
+    "invalid": 0,
+    "total": 24,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\hardware.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\hardware.schema.json",
+    "valid": 77,
+    "invalid": 0,
+    "total": 77,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\http_ftp_ssl.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\http_ftp_ssl.schema.json",
+    "valid": 38,
+    "invalid": 0,
+    "total": 38,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\init_sequences.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\init_sequences.schema.json",
+    "valid": 35,
+    "invalid": 0,
+    "total": 35,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\power.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\power.schema.json",
+    "valid": 1,
+    "invalid": 0,
+    "total": 1,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\sim.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\sim.schema.json",
+    "valid": 10,
+    "invalid": 0,
+    "total": 10,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\sms.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\sms.schema.json",
+    "valid": 14,
+    "invalid": 0,
+    "total": 14,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\states.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\states.schema.json",
+    "valid": 31,
+    "invalid": 0,
+    "total": 31,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\timings.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\timings.schema.json",
+    "valid": 5,
+    "invalid": 0,
+    "total": 5,
+    "errors": []
+  },
+  {
+    "dataset": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\dataset\\urcs.jsonl",
+    "schema": "C:\\Users\\Workshop\\Downloads\\New folder (3)\\Finish\\data\\schemas\\urcs.schema.json",
+    "valid": 95,
+    "invalid": 0,
+    "total": 95,
     "errors": []
   }
 ]

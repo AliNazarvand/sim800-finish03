@@ -3,7 +3,6 @@
   "new": "commands-v1.12.jsonl",
   "added": [
     "AT+CAND",
-    "AT+CN",
     "AT+DLYRI",
     "AT+HTTPGETHEAD"
   ],

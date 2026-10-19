@@ -22,14 +22,29 @@ CODE_RE = re.compile(r"^\s*(\d{1,3})\s{2,}(.+?)\s*$")
 
 def pdf_text(path: Path) -> str:
     """Read PDF text with pdftotext; never decrypt or modify the source."""
-    result = subprocess.run(["pdftotext", "-layout", str(path), "-"], check=True, capture_output=True, text=True)
-    return result.stdout
+    result = subprocess.run(
+        ["pdftotext", "-layout", str(path), "-"],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    return result.stdout or ""
+
+
+KNOWN_FAKE_COMMANDS = {"AT+CN", "AT+FTPMOD", "AT+CMMSSENDCF"}
+
+
+def normalize_commands(commands: list[str]) -> list[str]:
+    """Remove known artifact commands (regex captures of sub-strings inside the manual)."""
+    return sorted(cmd for cmd in commands if cmd not in KNOWN_FAKE_COMMANDS)
 
 
 def commands_for(version: str) -> list[str]:
     """Return unique AT identifiers observed in a manual."""
     text = pdf_text(DATASHEETS / f"SIM800 Series_AT Command Manual_V{version}.pdf")
-    return sorted(set(COMMAND_RE.findall(text)))
+    return normalize_commands(sorted(set(COMMAND_RE.findall(text))))
 
 
 def extract_error_table(text: str) -> list[tuple[str, str, str]]:
@@ -101,8 +116,15 @@ def build_commands_and_diffs() -> None:
             for command in commands
         ]
         path.write_text("\n".join(json.dumps(row) for row in rows) + "\n", encoding="utf-8")
+    # Merge all per-version commands into a single dataset
     current = ROOT / "dataset/commands.jsonl"
-    current.write_text((tmp / "commands-v1.10.jsonl").read_text(encoding="utf-8"), encoding="utf-8")
+    merged_rows: list[str] = []
+    for version in VERSIONS:
+        path = tmp / f"commands-v{version}.jsonl"
+        if path.exists():
+            merged_rows.extend(line for line in path.read_text(encoding="utf-8").splitlines() if line.strip())
+    current.write_text("\n".join(merged_rows) + "\n", encoding="utf-8")
+
     versions_rows = []
     for command in sorted(set().union(*(set(items) for items in by_version.values()))):
         for version in VERSIONS:
