@@ -1,0 +1,2 @@
+[console_scripts]
+sim800 = sim800_tools.cli:main
